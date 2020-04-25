@@ -1,79 +1,92 @@
 <template>
-  <footer>
-    <div class="container-fluid footer content-desktop border-top-light">
-      <div class="container footer border-left-light py-lg-3">
-        <div class="row">
-          <div class="d-block d-md-none col-4 offset-4 col-lg-12 offset-lg-0 pb-3 pl-4">
-            <div class="patrocinadores pt-md-5">
-              <p
-                class="light float-left ml-md-4 pl-md-3 mt-1"
-                v-bind:class="[
-                  !this.secondaryFooter ? 'text-white' : 'text-black'
-                ]"
-              >
-                <small>Powered by</small>
+  <footer role="how-it-works" class="bg-secondary py-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 pt-3 text-center">
+          <a href="index.html">
+            <img
+              src="static/assets/img/logo.png"
+              class="px-3 px-lg-0 py-2"
+              alt="Cadastra Portuguesa Santista"
+              height="106"
+            />
+          </a>
+        </div>
+        <div class="col-12 pt-lg-3 text-center">
+          <ul class="list-group">
+            <li class="list-group-item bg-transparent border-0 py-0">
+              <p class="my-1">
+                <a href="#" class="text-white">Sobre</a>
               </p>
-              <img
-                class="float-left ml-lg-2 pt-lg-1"
-                alt="Livip"
-                :src="[
-                  !this.secondaryFooter
-                    ? 'static/assets/img/logo-livip.png'
-                    : 'static/assets/img/logo-livip-secondary.png'
-                ]"
-                height="30"
-              />
-            </div>
-          </div>
-          <div class="text-center col-12 py-3 pl-4">
-            <div
-              class="d-inline pt-md-5"
-              v-bind:class="[
-                  !this.secondaryFooter ? 'text-white' : 'text-black'
-                ]"
-            >
-              <span class="align-bottom">
-                <small>© copyright 2020 Livip</small>
-              </span>
-            </div>
-          </div>
+            </li>
+            <li class="list-group-item bg-transparent border-0 py-0">
+              <p class="my-1">
+                <a href="#" class="text-white">Termos de Uso</a>
+              </p>
+            </li>
+            <li class="list-group-item bg-transparent border-0 py-0">
+              <p class="my-1">
+                <a href="#" class="text-white">Política de Privacidade</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 pt-lg-4 text-center">
+          <p class="text-uppercase text-white mb-0">
+            <small>Powered by</small>
+          </p>
+        </div>
+        <div class="col-12 text-center">
+          <img
+            src="static/assets/img/partners/logo-incentive.png"
+            class="px-3 px-lg-3"
+            alt="Incentive"
+            height="40"
+          />
+          <img
+            src="static/assets/img/partners/logo-fanbase.png"
+            class="px-3 px-lg-3 py-2"
+            alt="Fan Base"
+            height="55"
+          />
         </div>
       </div>
     </div>
   </footer>
 </template>
-<script>
-import { Survey } from "../services/Survey.js";
-const s = new Survey();
-export default {
-  name: "FooterGlobal",
-  props: {
-    secondaryFooter: { type: Boolean }
-  },
-  data: () => ({
-    qtSomos: 0
-  }),
-  created() {
-    this.getNSurvey();
-  },
-  computed: {
-    showSomos: function() {
-      if (this.qtSomos == 0) return false;
-      else return true;
-    }
-  },
-  methods: {
-    getNSurvey() {
-      s.GetData().then(
-        ret => {
-          if (ret) {
-            this.qtSomos = ret;
-            this.$store.commit("SET_QtUsers", this.qtSomos);
-          }
-        },
-        err => alert(err)
-      );
-    }
-  }
-};
+// <script>
+// import { Survey } from "../services/Survey.js";
+// const s = new Survey();
+// export default {
+//   name: "FooterGlobal",
+//   props: {
+//     secondaryFooter: { type: Boolean }
+//   },
+//   data: () => ({
+//     qtSomos: 0
+//   }),
+//   created() {
+//     this.getNSurvey();
+//   },
+//   computed: {
+//     showSomos: function() {
+//       if (this.qtSomos == 0) return false;
+//       else return true;
+//     }
+//   },
+//   methods: {
+//     getNSurvey() {
+//       s.GetData().then(
+//         ret => {
+//           if (ret) {
+//             this.qtSomos = ret;
+//             this.$store.commit("SET_QtUsers", this.qtSomos);
+//           }
+//         },
+//         err => alert(err)
+//       );
+//     }
+//   }
+// };
+//
 </script>

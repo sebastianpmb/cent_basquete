@@ -1,6 +1,6 @@
 <template>
   <div class="mb-5">
-    <nav class="navbar navbar-expand-md fixed-top shadow-lg">
+    <nav class="navbar navbar-expand-md fixed-top bg-secondary">
       <div class="container px-lg-0 py-1">
         <div class="col-12 col-lg-1 text-center">
           <a class="navbar-brand" href="index.html">
@@ -14,7 +14,9 @@
         </div>
         <div class="d-none d-sm-block">
           <div class="pull-right">
-            <button class="btn btn-block btn-primary rounded-0 px-5 ml-5">Quero doar</button>
+            <button class="btn btn-primary rounded-0 px-4 py-3 ml-3">
+              <span class="px-5">Quero doar</span>
+            </button>
           </div>
           <div class="pull-right pt-4">
             <h5 class="text-yellow">
