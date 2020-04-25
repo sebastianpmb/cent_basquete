@@ -4,7 +4,7 @@
     <main>
       <div class="container px-4 px-lg-0 pt-5 min-vh-100">
         <div class="row vertical-align pt-5">
-          <div class="col-lg-9 col-12 pt-5">
+          <div class="col-lg-10 col-12 pt-5">
             <h1 class="text-white">
               <strong>
                 Centavos que valem cesta de 3!
@@ -181,7 +181,7 @@
         <div class="row">
           <div class="col-8 offset-2 col-lg-8 offset-lg-2 pt-lg-5 mt-3">
             <h4 class="text-black text-center mb-3">
-              <strong>Quem usa a plataforma inCENTive</strong>
+              <strong>Quem usa a plataforma InCENTive</strong>
             </h4>
             <div class="title-bar" />
           </div>
