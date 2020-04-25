@@ -1,9 +1,6 @@
 <template>
   <div class="mb-5">
-    <nav
-      class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary"
-      v-bind:class="{'navbar-dark' : !this.secondaryHeader}"
-    >
+    <nav class="navbar navbar-expand-md fixed-top shadow-lg">
       <div class="container px-lg-0 py-1">
         <div class="col-12 col-lg-1 text-center">
           <a class="navbar-brand" href="index.html">
@@ -17,14 +14,17 @@
         </div>
         <div class="d-none d-sm-block">
           <div class="pull-right">
-            <h4 class="text-yellow">
-              <strong>R$ 34.876,32</strong>
-            </h4>
+            <button class="btn btn-block btn-primary rounded-0 px-5 ml-5">Quero doar</button>
           </div>
-          <div class="pull-right pt-2 mr-2">
-            <h5 v-bind:class="[!this.secondaryHeader ? 'text-white' : 'text-black']">
-              <strong>Já arrecadamos</strong>
+          <div class="pull-right pt-4">
+            <h5 class="text-yellow">
+              <strong>R$ 34.876,32</strong>
             </h5>
+          </div>
+          <div class="pull-right pt-4 mr-2">
+            <h6 v-bind:class="[!this.secondaryHeader ? 'text-white' : 'text-black']">
+              <strong>Já arrecadamos</strong>
+            </h6>
           </div>
         </div>
       </div>

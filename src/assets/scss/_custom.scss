@@ -102,3 +102,8 @@ body {
     }
   }
 }
+@media (min-width: 1024px) {
+  .vertical-align {
+    @include vertical-align(70%);
+  }
+}
