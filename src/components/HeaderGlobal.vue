@@ -5,7 +5,11 @@
         <div class="col-12 col-lg-1 text-center">
           <a class="navbar-brand" href="index.html">
             <img
-              :src="[!this.secondaryHeader ? 'static/assets/img/logo.png' : 'static/assets/img/logo-secondary.png']"
+              :src="[
+                !this.secondaryHeader
+                  ? 'static/assets/img/logo.png'
+                  : 'static/assets/img/logo-secondary.png',
+              ]"
               class="px-3 px-lg-0 py-2"
               alt="Cadastra Portuguesa Santista"
               height="106"
@@ -14,8 +18,8 @@
         </div>
         <div class="d-none d-sm-block">
           <div class="pull-right">
-            <button class="btn btn-primary rounded-0 px-4 py-3 ml-3">
-              <span class="px-5">Quero doar</span>
+            <button class="btn btn-primary rounded-0 ml-3">
+              Quero doar
             </button>
           </div>
           <div class="pull-right pt-4">
@@ -24,7 +28,11 @@
             </h5>
           </div>
           <div class="pull-right pt-4 mr-2">
-            <h6 v-bind:class="[!this.secondaryHeader ? 'text-white' : 'text-black']">
+            <h6
+              v-bind:class="[
+                !this.secondaryHeader ? 'text-white' : 'text-black',
+              ]"
+            >
               <strong>Já arrecadamos</strong>
             </h6>
           </div>
@@ -35,16 +43,16 @@
 </template>
 
 <script>
-import { Survey } from "../services/Survey.js";
+import { Survey } from '../services/Survey.js';
 const s = new Survey();
 
 export default {
-  name: "HeaderGlobal",
+  name: 'HeaderGlobal',
   props: {
-    secondaryHeader: { type: Boolean }
+    secondaryHeader: { type: Boolean },
   },
   data: () => ({
-    qtSomos: 0
+    qtSomos: 0,
   }),
   created() {
     this.getNSurvey();
@@ -53,20 +61,20 @@ export default {
     showSomos: function() {
       if (this.qtSomos == 0) return false;
       else return true;
-    }
+    },
   },
   methods: {
     getNSurvey() {
       s.GetData().then(
-        ret => {
+        (ret) => {
           if (ret) {
             this.qtSomos = ret;
-            this.$store.commit("SET_QtUsers", this.qtSomos);
+            this.$store.commit('SET_QtUsers', this.qtSomos);
           }
         },
-        err => alert(err)
+        (err) => alert(err)
       );
-    }
-  }
+    },
+  },
 };
 </script>

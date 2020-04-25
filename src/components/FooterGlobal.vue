@@ -8,7 +8,7 @@
               src="static/assets/img/logo.png"
               class="px-3 px-lg-0 py-2"
               alt="Cadastra Portuguesa Santista"
-              height="106"
+              height="86"
             />
           </a>
         </div>
@@ -32,7 +32,7 @@
           </ul>
         </div>
         <div class="col-12 pt-lg-4 text-center">
-          <p class="text-uppercase text-white mb-0">
+          <p class="text-uppercase text-white">
             <small>Powered by</small>
           </p>
         </div>
@@ -47,14 +47,15 @@
             src="static/assets/img/partners/logo-fanbase.png"
             class="px-3 px-lg-3 py-2"
             alt="Fan Base"
-            height="55"
+            height="62"
           />
         </div>
       </div>
     </div>
   </footer>
 </template>
-// <script>
+//
+<script>
 // import { Survey } from "../services/Survey.js";
 // const s = new Survey();
 // export default {
