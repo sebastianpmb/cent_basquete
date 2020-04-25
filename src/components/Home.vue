@@ -3,8 +3,8 @@
     <HeaderGlobal :secondaryHeader="false" />
     <main>
       <div class="container px-4 px-lg-0 pt-5 min-vh-100">
-        <div class="row pt-5">
-          <div class="col-lg-9 col-12 pt-5">
+        <div class="row vertical-align pt-5">
+          <div class="col-lg-8 col-12 pt-5">
             <h1 class="text-white">
               <strong>
                 Centavos que
@@ -12,43 +12,32 @@
               </strong>
             </h1>
           </div>
-          <div class="col-12 col-lg-9 pt-4">
+          <div class="col-12 col-lg-8 pt-4">
             <h4 class="text-yellow">
-              <strong>
-                Sabia que você pode ajudar os jogadores
-                de basquete que mais precisam doando
-                seus centavos?
-              </strong>
+              <strong>Sabia que você pode ajudar os jogadores de basquete neste momento difícil doando seus centavos?</strong>
             </h4>
-          </div>
-          <div class="col-12 col-lg-9 py-4">
-            <h5 class="text-white">
-              Ao cadastrar o seu Cartão de Crédito Mastercard* em nossa
-              plataforma, todas as suas compras serão arredondadas
-              automaticamente e a diferença dos centavos será doada para a
-              Associação dos Atletas xxxxxxxxx
-            </h5>
-          </div>
-          <div class="col-lg-3 col-12 py-3 pb-5 py-lg-5">
-            <button class="btn btn-block btn-primary rounded-0">Quero doar</button>
           </div>
         </div>
       </div>
     </main>
     <section role="how-it-works" class="bg-white min-vh-100">
-      <div class="container-fluid bg-primary">
+      <div class="container-fluid text-white">
         <div class="row">
-          <div class="col-12 col-lg-6 offset-lg-3 px-lg-5 my-5">
-            <h5 class="text-white text-center px-lg-5 py-2">
-              <strong>
-                Os valores arrecadados pela CBB com a
-                doação dos seus centavos nesta campanha
-                serão integralmente direcionados para as
-                famílias dos jogadores de basquete que mais
-                precisam neste momento de grande
-                dificuldade para todos.
-              </strong>
-            </h5>
+          <div class="col-lg-6 bg-primary px-lg-5 py-5">
+            <h4 class="px-lg-5 py-2">
+              <strong>Simples, seguro e transparente!</strong>
+            </h4>
+            <h6
+              class="px-lg-5"
+            >Ao cadastrar o seu Cartão de Crédito Mastercard* em nossa plataforma, todas as suas compras serão arredondadas automaticamente e a diferença dos centavos será doada diretamente para a Associação dos Atletas xxxxxxxxx</h6>
+          </div>
+          <div class="col-lg-6 bg-green-2 px-lg-5 py-5">
+            <h4 class="px-lg-5 py-2">
+              <strong>Simples, seguro e transparente!</strong>
+            </h4>
+            <h6
+              class="px-lg-5"
+            >Os valores arrecadados pela CBB com a doação dos seus centavos serão integralmente direcionados para as famílias dos jogadores de basquete que mais precisam neste momento.</h6>
           </div>
         </div>
       </div>
@@ -61,7 +50,7 @@
             <div class="title-bar" />
           </div>
         </div>
-        <div class="row px-5 py-5">
+        <div class="row px-5 pt-5 pb-3">
           <div class="col-lg-3">
             <div class="row">
               <div class="col-3">
@@ -139,13 +128,18 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-lg-3 mx-lg-auto col-12 px-lg-5 py-3 pb-5 pb-lg-5">
+            <button class="btn btn-block px-5 btn-primary rounded-0 my-3 my-lg-5">Quero doar</button>
+          </div>
+        </div>
       </div>
     </section>
-    <section role="how-it-works" class="bg-white min-vh-100 py-5">
+    <section role="how-it-works" class="bg-white py-5">
       <div class="container-fluid">
         <div class="row text-center py-5">
-          <div class="col-lg-3 bg-blue-1 p-5">
-            <h6 class="text-white my-auto">
+          <div class="col-12 col-lg bg-blue-2 p-5">
+            <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
               <strong>
                 Os arredondamentos
                 nunca passam de
@@ -153,8 +147,8 @@
               </strong>
             </h6>
           </div>
-          <div class="col-lg-3 bg-blue-2 p-5">
-            <h6 class="text-white my-auto">
+          <div class="col-12 col-lg bg-blue-3 p-5">
+            <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
               <strong>
                 Você pode
                 descadastrar seu
@@ -164,8 +158,8 @@
               </strong>
             </h6>
           </div>
-          <div class="col-lg-3 bg-blue-3 p-5">
-            <h6 class="text-white my-auto">
+          <div class="col-12 col-lg bg-blue-4 p-5">
+            <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
               <strong>
                 A Plataforma
                 InCENTive atende aos
@@ -175,8 +169,8 @@
               </strong>
             </h6>
           </div>
-          <div class="col-lg-3 bg-blue-4 p-5">
-            <h6 class="text-white my-auto">
+          <div class="col-12 col-lg bg-blue-5 p-5">
+            <h6 class="text-white my-auto py-4 py-lg-0">
               <strong>
                 No momento,
                 aceitamos apenas
@@ -188,8 +182,10 @@
               </strong>
             </h6>
           </div>
-          <div class="col-lg-3 mx-lg-auto col-12 px-lg-5 py-3 pb-5 py-lg-5 mt-lg-5">
-            <button class="btn btn-block px-5 btn-primary rounded-0 my-3 my-lg-5">Quero doar</button>
+          <div class="col-12 col-lg bg-blue-6 p-5">
+            <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
+              <strong>O valor de doação mínima mensal é de R$5,00.</strong>
+            </h6>
           </div>
         </div>
       </div>
@@ -197,9 +193,9 @@
     <section role="how-it-works" class="bg-white min-vh-100">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-8 offset-2 col-lg-6 offset-lg-3 pt-lg-5 mt-5">
+          <div class="col-8 offset-2 col-lg-4 offset-lg-4 pt-lg-5 mt-3">
             <h4 class="text-black text-center mb-3">
-              <strong>Quem usa a Plataforma InCENTive</strong>
+              <strong>Quem usa</strong>
             </h4>
             <div class="title-bar" />
           </div>
@@ -230,7 +226,10 @@
               <i>
                 "O brasileiro é solidário e disposto a contribuir, mas a falta de tempo e de canais que possibilitam doações são os principais fatores que não potencializam esse engajamento. Essa nova tecnologia resolve esses dois problemas, pois basta um simples cadastro para realizar doações com pequenos valores, sem mudar nada na rotina.
                 <br />A nossa expectativa é que essa nossa parceria cause uma grande impacto positivo em nosso trabalho, contribuindo de forma significativa para os atendimentos que realizamos diariamente na AACD."
-                <br />
+              </i>
+            </h6>
+            <h6 class="text-black text-center">
+              <i>
                 <strong>
                   Edson Brito, Superintendente de Marketing
                   <br />e Relações Internacionais da AACD
@@ -241,10 +240,10 @@
         </div>
       </div>
     </section>
-    <footer role="how-it-works" class="bg-secondary min-vh-100">
+    <footer role="how-it-works" class="bg-secondary py-4">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 pt-lg-5 text-center mt-5">
+          <div class="col-12 pt-3 text-center mt-2">
             <a class="navbar-brand" href="index.html">
               <img
                 src="static/assets/img/logo.png"
@@ -254,40 +253,41 @@
               />
             </a>
           </div>
-          <div class="col-12 pt-lg-5 text-center mt-5">
+          <div class="col-12 pt-lg-3 text-center mt-3">
             <ul class="list-group">
-              <li class="list-group-item bg-transparent border-0">
-                <h6>
+              <li class="list-group-item bg-transparent border-0 py-0">
+                <h6 class="my-1">
                   <a href="#" class="text-white">Sobre</a>
                 </h6>
               </li>
-              <li class="list-group-item bg-transparent border-0">
-                <h6>
+              <li class="list-group-item bg-transparent border-0 py-0">
+                <h6 class="my-1">
                   <a href="#" class="text-white">Termos de Uso</a>
                 </h6>
               </li>
-              <li class="list-group-item bg-transparent border-0">
-                <h6>
+              <li class="list-group-item bg-transparent border-0 py-0">
+                <h6 class="my-1">
                   <a href="#" class="text-white">Política de Privacidade</a>
                 </h6>
               </li>
             </ul>
           </div>
-          <div class="col-12 pt-lg-5 text-center mt-5">
+          <div class="col-12 pt-lg-5 text-center">
             <h6 class="text-uppercase text-white">Powered by</h6>
           </div>
           <div class="col-12 pt-lg-4 text-center">
             <img
               src="static/assets/img/partners/logo-incentive.png"
-              class="px-3 px-lg-0 py-2"
-              alt="Cadastra Portuguesa Santista"
+              class="px-3 px-lg-0"
+              alt="Incentive"
             />
           </div>
           <div class="col-12 pt-lg-4 text-center">
             <img
               src="static/assets/img/partners/logo-fanbase.png"
               class="px-3 px-lg-0 py-2"
-              alt="Cadastra Portuguesa Santista"
+              alt="Fan Base"
+              height="90"
             />
           </div>
         </div>

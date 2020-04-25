@@ -1,6 +1,7 @@
 #app {
   .navbar {
     padding: 0;
+    background-color: rgba(0, 42, 106, 0.9);
   }
   .somos {
     width: 65%;
@@ -39,7 +40,7 @@
             // width: 1.5em;
             // height: 1.5em;
             vertical-align: middle;
-            content: "";
+            content: '';
             position: absolute;
             left: 17px;
             top: 0.6em;

@@ -18,11 +18,11 @@ $gray-900: #212529 !default;
 $black: #000 !important;
 
 $blue: #002a6a !important;
-$blue-1: #1a2e52 !important;
-$blue-2: #254275 !important;
-$blue-3: #335a9f !important;
-$blue-4: #3b67b7 !important;
-$blue-5: #4e79c6 !important;
+$blue-2: #1a2e52 !important;
+$blue-3: #254275 !important;
+$blue-4: #335a9f !important;
+$blue-5: #3b67b7 !important;
+$blue-6: #4e79c6 !important;
 $indigo: #2f5597 !important;
 $purple: #6f42c1 !default;
 $pink: #7c1254 !important;
@@ -31,6 +31,7 @@ $red-dark-1: #420021 !important;
 $orange: #fd7e14 !default;
 $yellow: #ffc000 !important;
 $green: #70ad47 !important;
+$green-2: #60923e !important;
 $green-light-1: #038835 !default;
 $green-dark-1: #2a421a !important;
 $teal: #20c997 !default;
@@ -57,12 +58,13 @@ $theme-colors: map-merge(
     'danger': $danger,
     'light': $light,
     'dark': $dark,
+    'green-2': $green-2,
     'green-light-1': $green-light-1,
-    'blue-1': $blue-1,
     'blue-2': $blue-2,
     'blue-3': $blue-3,
     'blue-4': $blue-4,
     'blue-5': $blue-5,
+    'blue-6': $blue-6,
   ),
   $theme-colors
 );

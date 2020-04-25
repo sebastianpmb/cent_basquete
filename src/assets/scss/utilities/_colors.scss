@@ -14,7 +14,10 @@
       color: $black;
     }
     &green-light-1 {
-      color: $green-light-1 !important;
+      color: $green-light-1;
+    }
+    &green-2 {
+      color: $green-2;
     }
   }
 
@@ -28,9 +31,6 @@
     &secondary {
       background-color: $secondary;
     }
-    &blue-1 {
-      background-color: $blue-1;
-    }
     &blue-2 {
       background-color: $blue-2;
     }
@@ -42,6 +42,12 @@
     }
     &blue-5 {
       background-color: $blue-5;
+    }
+    &blue-6 {
+      background-color: $blue-6;
+    }
+    &green-2 {
+      background-color: $green-2;
     }
   }
 
@@ -70,4 +76,8 @@
   .text-warning {
     color: $yellow;
   }
+}
+
+.bg-green-2 {
+  background-color: $green-2;
 }
