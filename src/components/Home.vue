@@ -4,7 +4,7 @@
     <main>
       <div class="container px-4 px-lg-0 pt-5 min-vh-100">
         <div class="row vertical-align pt-5">
-          <div class="col-lg-8 col-12 pt-5">
+          <div class="col-lg-9 col-12 pt-5">
             <h1 class="text-white">
               <strong>
                 Centavos que
@@ -12,7 +12,7 @@
               </strong>
             </h1>
           </div>
-          <div class="col-12 col-lg-8 pt-4">
+          <div class="col-12 col-lg-9 pt-4">
             <h4 class="text-yellow">
               <strong>Sabia que você pode ajudar os jogadores de basquete neste momento difícil doando seus centavos?</strong>
             </h4>
@@ -33,7 +33,7 @@
           </div>
           <div class="col-lg-6 bg-green-2 px-lg-5 py-5">
             <h4 class="px-lg-5 py-2">
-              <strong>Simples, seguro e transparente!</strong>
+              <strong>Sua doação direto para quem precisa!</strong>
             </h4>
             <h6
               class="px-lg-5"
@@ -60,10 +60,7 @@
               </div>
               <div class="col-9 pt-5">
                 <h6 class="text-black">
-                  Cadastrando seu
-                  Cartão de Crédito
-                  Mastercard*, você se
-                  torna um doador da
+                  Cadastrando seu Cartão de Crédito Mastercard*, você se torna um doador de centavos para os projetos sociais
                   <strong>CBB</strong>.
                 </h6>
               </div>
@@ -79,12 +76,8 @@
               <div class="col-9 pt-5">
                 <h6 class="text-black">
                   Em uma compra de
-                  <strong>R$8,30</strong> o sistema
-                  arredonda os
-                  <strong>R$0,70</strong>
-                  restantes para
-                  completar
-                  <strong>R$9,00</strong>.
+                  <strong>R$8,60</strong>, por exemplo, o sistema arredonda para
+                  <strong>R$9,00</strong> o valor a ser cobrado na sua fatura.
                 </h6>
               </div>
             </div>
@@ -98,12 +91,9 @@
               </div>
               <div class="col-9 pt-5">
                 <h6 class="text-black">
-                  Esses
-                  <strong>R$0,70</strong> são
-                  repassados para a
-                  CBB e o valor gasto é
-                  cobrado como
-                  <strong>R$9,00</strong>.
+                  A diferença de
+                  <strong>R$0,40</strong> é o valor da sua doação , que será repassado diretamente para conta da
+                  <strong>CBB</strong>.
                 </h6>
               </div>
             </div>
@@ -116,21 +106,18 @@
                 </h1>
               </div>
               <div class="col-9 pt-5">
-                <h6 class="text-black">
-                  No final do mês será
-                  feito um único
-                  lançamento na fatura
-                  do seu cartão de
-                  crédito com o total de
-                  centavos doados.
-                </h6>
+                <h6
+                  class="text-black"
+                >No final do mês será feito um único lançamento na fatura do seu cartão de crédito Mastercard com o total de centavos doados.</h6>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-3 mx-lg-auto col-12 px-lg-5 py-3 pb-5 pb-lg-5">
-            <button class="btn btn-block px-5 btn-primary rounded-0 my-3 my-lg-5">Quero doar</button>
+        <div class="row mt-4">
+          <div class="col-12 text-center">
+            <button class="btn btn-primary rounded-0 px-5 py-4">
+              <span class="px-5">Quero doar</span>
+            </button>
           </div>
         </div>
       </div>
@@ -193,9 +180,9 @@
     <section role="how-it-works" class="bg-white min-vh-100">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-8 offset-2 col-lg-4 offset-lg-4 pt-lg-5 mt-3">
+          <div class="col-8 offset-2 col-lg-8 offset-lg-2 pt-lg-5 mt-3">
             <h4 class="text-black text-center mb-3">
-              <strong>Quem usa</strong>
+              <strong>Quem usa a plataforma inCENTive</strong>
             </h4>
             <div class="title-bar" />
           </div>
@@ -240,66 +227,14 @@
         </div>
       </div>
     </section>
-    <footer role="how-it-works" class="bg-secondary py-4">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 pt-3 text-center mt-2">
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="static/assets/img/logo.png"
-                class="px-3 px-lg-0 py-2"
-                alt="Cadastra Portuguesa Santista"
-                height="136"
-              />
-            </a>
-          </div>
-          <div class="col-12 pt-lg-3 text-center mt-3">
-            <ul class="list-group">
-              <li class="list-group-item bg-transparent border-0 py-0">
-                <h6 class="my-1">
-                  <a href="#" class="text-white">Sobre</a>
-                </h6>
-              </li>
-              <li class="list-group-item bg-transparent border-0 py-0">
-                <h6 class="my-1">
-                  <a href="#" class="text-white">Termos de Uso</a>
-                </h6>
-              </li>
-              <li class="list-group-item bg-transparent border-0 py-0">
-                <h6 class="my-1">
-                  <a href="#" class="text-white">Política de Privacidade</a>
-                </h6>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 pt-lg-5 text-center">
-            <h6 class="text-uppercase text-white">Powered by</h6>
-          </div>
-          <div class="col-12 pt-lg-4 text-center">
-            <img
-              src="static/assets/img/partners/logo-incentive.png"
-              class="px-3 px-lg-0"
-              alt="Incentive"
-            />
-          </div>
-          <div class="col-12 pt-lg-4 text-center">
-            <img
-              src="static/assets/img/partners/logo-fanbase.png"
-              class="px-3 px-lg-0 py-2"
-              alt="Fan Base"
-              height="90"
-            />
-          </div>
-        </div>
-      </div>
-    </footer>
+    <FooterGlobal />
   </div>
 </template>
 
 <script>
 import HeaderGlobal from "./HeaderGlobal.vue";
 import NumberText from "./widgets/NumberText.vue";
-// import FooterGlobal from "./FooterGlobal.vue";
+import FooterGlobal from "./FooterGlobal.vue";
 
 // import { Survey } from "../services/Survey.js";
 // const s = new Survey();
@@ -312,8 +247,8 @@ export default {
   name: "Home",
   components: {
     HeaderGlobal,
-    NumberText
-    // FooterGlobal
+    NumberText,
+    FooterGlobal
   }
   //   data: () => ({
   //     btnMes: "Quero responder",
