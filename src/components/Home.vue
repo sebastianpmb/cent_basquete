@@ -7,14 +7,16 @@
           <div class="col-lg-9 col-12 pt-5">
             <h1 class="text-white">
               <strong>
-                Centavos que
-                valem cesta de 3!
+                Centavos que valem cesta de 3!
               </strong>
             </h1>
           </div>
           <div class="col-12 col-lg-9 pt-4">
             <h4 class="text-yellow">
-              <strong>Sabia que você pode ajudar os jogadores de basquete neste momento difícil doando seus centavos?</strong>
+              <strong
+                >Sabia que você pode ajudar os jogadores de basquete neste
+                momento difícil doando seus centavos?</strong
+              >
             </h4>
           </div>
         </div>
@@ -27,23 +29,30 @@
             <h4 class="px-lg-5 py-2">
               <strong>Simples, seguro e transparente!</strong>
             </h4>
-            <h6
-              class="px-lg-5"
-            >Ao cadastrar o seu Cartão de Crédito Mastercard* em nossa plataforma, todas as suas compras serão arredondadas automaticamente e a diferença dos centavos será doada diretamente para a Associação dos Atletas xxxxxxxxx</h6>
+            <h6 class="px-lg-5">
+              Ao cadastrar o seu Cartão de Crédito Mastercard* em nossa
+              plataforma, todas as suas compras serão arredondadas
+              automaticamente e a diferença dos centavos será doada diretamente
+              para a Associação dos Atletas xxxxxxxxx
+            </h6>
           </div>
           <div class="col-lg-6 bg-green-2 px-lg-5 py-5">
             <h4 class="px-lg-5 py-2">
               <strong>Sua doação direto para quem precisa!</strong>
             </h4>
-            <h6
-              class="px-lg-5"
-            >Os valores arrecadados pela CBB com a doação dos seus centavos serão integralmente direcionados para as famílias dos jogadores de basquete que mais precisam neste momento.</h6>
+            <h6 class="px-lg-5">
+              Os valores arrecadados pela CBB com a doação dos seus centavos
+              serão integralmente direcionados para as famílias dos jogadores de
+              basquete que mais precisam neste momento.
+            </h6>
           </div>
         </div>
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-8 offset-2 col-lg-4 offset-lg-4 bg-white pt-lg-5 mt-5">
+          <div
+            class="col-8 offset-2 col-lg-4 offset-lg-4 bg-white pt-lg-5 mt-5"
+          >
             <h4 class="text-black text-center mb-3">
               <strong>Como funciona</strong>
             </h4>
@@ -60,7 +69,8 @@
               </div>
               <div class="col-9 pt-5">
                 <h6 class="text-black">
-                  Cadastrando seu Cartão de Crédito Mastercard*, você se torna um doador de centavos para os projetos sociais
+                  Cadastrando seu Cartão de Crédito Mastercard*, você se torna
+                  um doador de centavos para os projetos sociais
                   <strong>CBB</strong>.
                 </h6>
               </div>
@@ -92,8 +102,8 @@
               <div class="col-9 pt-5">
                 <h6 class="text-black">
                   A diferença de
-                  <strong>R$0,40</strong> é o valor da sua doação , que será repassado diretamente para conta da
-                  <strong>CBB</strong>.
+                  <strong>R$0,40</strong> é o valor da sua doação , que será
+                  repassado diretamente para conta da <strong>CBB</strong>.
                 </h6>
               </div>
             </div>
@@ -106,17 +116,19 @@
                 </h1>
               </div>
               <div class="col-9 pt-5">
-                <h6
-                  class="text-black"
-                >No final do mês será feito um único lançamento na fatura do seu cartão de crédito Mastercard com o total de centavos doados.</h6>
+                <h6 class="text-black">
+                  No final do mês será feito um único lançamento na fatura do
+                  seu cartão de crédito Mastercard com o total de centavos
+                  doados.
+                </h6>
               </div>
             </div>
           </div>
         </div>
         <div class="row mt-4">
           <div class="col-12 text-center">
-            <button class="btn btn-primary rounded-0 px-5 py-4">
-              <span class="px-5">Quero doar</span>
+            <button class="btn btn-primary rounded-0">
+              Quero doar
             </button>
           </div>
         </div>
@@ -128,44 +140,31 @@
           <div class="col-12 col-lg bg-blue-2 p-5">
             <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
               <strong>
-                Os arredondamentos
-                nunca passam de
-                R$0,99 por compra
+                Os arredondamentos nunca passam de R$0,99 por compra
               </strong>
             </h6>
           </div>
           <div class="col-12 col-lg bg-blue-3 p-5">
             <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
               <strong>
-                Você pode
-                descadastrar seu
-                cartão quando quiser,
-                de forma simples e
-                rápida pelo site.
+                Você pode descadastrar seu cartão quando quiser, de forma
+                simples e rápida pelo site.
               </strong>
             </h6>
           </div>
           <div class="col-12 col-lg bg-blue-4 p-5">
             <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
               <strong>
-                A Plataforma
-                InCENTive atende aos
-                principais protocolos
-                globais de segurança
-                digital.
+                A Plataforma InCENTive atende aos principais protocolos globais
+                de segurança digital.
               </strong>
             </h6>
           </div>
           <div class="col-12 col-lg bg-blue-5 p-5">
             <h6 class="text-white my-auto py-4 py-lg-0">
               <strong>
-                No momento,
-                aceitamos apenas
-                Cartões de Crédito
-                Mastercard. Outros
-                cartões e bandeiras
-                serão aceitos em
-                breve.
+                No momento, aceitamos apenas Cartões de Crédito Mastercard.
+                Outros cartões e bandeiras serão aceitos em breve.
               </strong>
             </h6>
           </div>
@@ -189,30 +188,56 @@
         </div>
         <div class="row text-center py-lg-5 mt-5">
           <div class="col-4 col-lg-2 pt-5 pt-lg-0">
-            <img src="../../public/static/assets/img/partners/logo-aacd.png" alt="..." />
+            <img
+              src="../../public/static/assets/img/partners/logo-aacd.png"
+              alt="..."
+            />
           </div>
           <div class="col-4 col-lg-2 pt-5 pt-lg-0">
-            <img src="../../public/static/assets/img/partners/logo-aacd.png" alt="..." />
+            <img
+              src="../../public/static/assets/img/partners/logo-aacd.png"
+              alt="..."
+            />
           </div>
           <div class="col-4 col-lg-2 pt-5 pt-lg-0">
-            <img src="../../public/static/assets/img/partners/logo-aacd.png" alt="..." />
+            <img
+              src="../../public/static/assets/img/partners/logo-aacd.png"
+              alt="..."
+            />
           </div>
           <div class="col-4 col-lg-2 pt-5 pt-lg-0">
-            <img src="../../public/static/assets/img/partners/logo-aacd.png" alt="..." />
+            <img
+              src="../../public/static/assets/img/partners/logo-aacd.png"
+              alt="..."
+            />
           </div>
           <div class="col-4 col-lg-2 pt-5 pt-lg-0">
-            <img src="../../public/static/assets/img/partners/logo-aacd.png" alt="..." />
+            <img
+              src="../../public/static/assets/img/partners/logo-aacd.png"
+              alt="..."
+            />
           </div>
           <div class="col-4 col-lg-2 pt-5 pt-lg-0">
-            <img src="../../public/static/assets/img/partners/logo-aacd.png" alt="..." />
+            <img
+              src="../../public/static/assets/img/partners/logo-aacd.png"
+              alt="..."
+            />
           </div>
         </div>
         <div class="row px-5 py-5">
           <div class="col-12 col-lg-6 offset-lg-3">
             <h6 class="text-black text-center">
               <i>
-                "O brasileiro é solidário e disposto a contribuir, mas a falta de tempo e de canais que possibilitam doações são os principais fatores que não potencializam esse engajamento. Essa nova tecnologia resolve esses dois problemas, pois basta um simples cadastro para realizar doações com pequenos valores, sem mudar nada na rotina.
-                <br />A nossa expectativa é que essa nossa parceria cause uma grande impacto positivo em nosso trabalho, contribuindo de forma significativa para os atendimentos que realizamos diariamente na AACD."
+                "O brasileiro é solidário e disposto a contribuir, mas a falta
+                de tempo e de canais que possibilitam doações são os principais
+                fatores que não potencializam esse engajamento. Essa nova
+                tecnologia resolve esses dois problemas, pois basta um simples
+                cadastro para realizar doações com pequenos valores, sem mudar
+                nada na rotina.
+                <br />A nossa expectativa é que essa nossa parceria cause uma
+                grande impacto positivo em nosso trabalho, contribuindo de forma
+                significativa para os atendimentos que realizamos diariamente na
+                AACD."
               </i>
             </h6>
             <h6 class="text-black text-center">
@@ -232,9 +257,9 @@
 </template>
 
 <script>
-import HeaderGlobal from "./HeaderGlobal.vue";
-import NumberText from "./widgets/NumberText.vue";
-import FooterGlobal from "./FooterGlobal.vue";
+import HeaderGlobal from './HeaderGlobal.vue';
+import NumberText from './widgets/NumberText.vue';
+import FooterGlobal from './FooterGlobal.vue';
 
 // import { Survey } from "../services/Survey.js";
 // const s = new Survey();
@@ -244,12 +269,12 @@ import FooterGlobal from "./FooterGlobal.vue";
 
 //     import { mask } from "vue-the-mask";
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     HeaderGlobal,
     NumberText,
-    FooterGlobal
-  }
+    FooterGlobal,
+  },
   //   data: () => ({
   //     btnMes: "Quero responder",
   //     nome: "",
