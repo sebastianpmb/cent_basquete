@@ -4,20 +4,40 @@
     <main>
       <div class="container px-4 px-lg-0 pt-5 min-vh-100">
         <div class="row vertical-align pt-5">
-          <div class="col-lg-10 col-12 pt-5">
+          <div class="col-lg-10 col-12 pt-5 px-5 px-lg-3">
             <h1 class="text-white">
-              <strong>
-                Centavos que valem cesta de 3!
-              </strong>
+              <strong>Centavos que valem cesta de 3!</strong>
             </h1>
           </div>
-          <div class="col-12 col-lg-9 pt-4">
+          <div class="col-12 col-lg-9 pt-4 px-5 px-lg-3">
             <h4 class="text-yellow">
-              <strong
-                >Sabia que você pode ajudar os jogadores de basquete neste
-                momento difícil doando seus centavos?</strong
-              >
+              <strong>
+                Sabia que você pode ajudar os jogadores de basquete neste
+                momento difícil doando seus centavos?
+              </strong>
             </h4>
+          </div>
+          <div class="container d-lg-none">
+            <div class="row">
+              <div class="col-12 text-center mt-5 px-5 px-lg-3">
+                <h6
+                  v-bind:class="[
+                !this.secondaryHeader ? 'text-white' : 'text-black',
+              ]"
+                >
+                  <strong>Já arrecadamos</strong>
+                </h6>
+              </div>
+              <div class="col-12 text-center">
+                <h5 class="text-yellow">
+                  <strong>R$ 34.876,32</strong>
+                </h5>
+              </div>
+
+              <div class="col-12 text-center">
+                <button class="btn btn-primary rounded-0">Quero doar</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -25,7 +45,7 @@
     <section role="how-it-works" class="bg-white min-vh-100">
       <div class="container-fluid text-white">
         <div class="row">
-          <div class="col-lg-6 bg-primary px-lg-5 py-5">
+          <div class="col-lg-6 bg-primary px-lg-5 p-5 px-lg-3">
             <h4 class="px-lg-5 py-2">
               <strong>Simples, seguro e transparente!</strong>
             </h4>
@@ -36,7 +56,7 @@
               para a Associação dos Atletas xxxxxxxxx
             </h6>
           </div>
-          <div class="col-lg-6 bg-green-2 px-lg-5 py-5">
+          <div class="col-lg-6 bg-green-2 px-lg-5 p-5 px-lg-3">
             <h4 class="px-lg-5 py-2">
               <strong>Sua doação direto para quem precisa!</strong>
             </h4>
@@ -50,9 +70,7 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div
-            class="col-8 offset-2 col-lg-4 offset-lg-4 bg-white pt-lg-5 mt-5"
-          >
+          <div class="col-8 offset-2 col-lg-4 offset-lg-4 bg-white pt-lg-5 mt-5">
             <h4 class="text-black text-center mb-3">
               <strong>Como funciona</strong>
             </h4>
@@ -67,7 +85,7 @@
                   <strong>1</strong>
                 </h1>
               </div>
-              <div class="col-9 pt-5">
+              <div class="col-9 pt-3 pt-lg-5">
                 <h6 class="text-black">
                   Cadastrando seu Cartão de Crédito Mastercard*, você se torna
                   um doador de centavos para os projetos sociais
@@ -76,14 +94,14 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 mt-4 mt-lg-0">
             <div class="row">
               <div class="col-3">
                 <h1 class="text-yellow text-right">
                   <strong>2</strong>
                 </h1>
               </div>
-              <div class="col-9 pt-5">
+              <div class="col-9 pt-3 pt-lg-5">
                 <h6 class="text-black">
                   Em uma compra de
                   <strong>R$8,60</strong>, por exemplo, o sistema arredonda para
@@ -92,30 +110,31 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 mt-4 mt-lg-0">
             <div class="row">
               <div class="col-3">
                 <h1 class="text-yellow text-right">
                   <strong>3</strong>
                 </h1>
               </div>
-              <div class="col-9 pt-5">
+              <div class="col-9 pt-3 pt-lg-5">
                 <h6 class="text-black">
                   A diferença de
                   <strong>R$0,40</strong> é o valor da sua doação , que será
-                  repassado diretamente para conta da <strong>CBB</strong>.
+                  repassado diretamente para conta da
+                  <strong>CBB</strong>.
                 </h6>
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 mt-4 mt-lg-0">
             <div class="row">
               <div class="col-3">
                 <h1 class="text-yellow text-right">
                   <strong>4</strong>
                 </h1>
               </div>
-              <div class="col-9 pt-5">
+              <div class="col-9 pt-3 pt-lg-5">
                 <h6 class="text-black">
                   No final do mês será feito um único lançamento na fatura do
                   seu cartão de crédito Mastercard com o total de centavos
@@ -127,9 +146,7 @@
         </div>
         <div class="row mt-4">
           <div class="col-12 text-center">
-            <button class="btn btn-primary rounded-0">
-              Quero doar
-            </button>
+            <button class="btn btn-primary rounded-0">Quero doar</button>
           </div>
         </div>
       </div>
@@ -139,9 +156,7 @@
         <div class="row text-center py-5">
           <div class="col-12 col-lg bg-blue-2 p-5">
             <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
-              <strong>
-                Os arredondamentos nunca passam de R$0,99 por compra
-              </strong>
+              <strong>Os arredondamentos nunca passam de R$0,99 por compra</strong>
             </h6>
           </div>
           <div class="col-12 col-lg bg-blue-3 p-5">
@@ -187,40 +202,52 @@
           </div>
         </div>
         <div class="row text-center py-lg-5 mt-5">
-          <div class="col-4 col-lg-2 pt-5 pt-lg-0">
+          <div class="col pt-5 pt-lg-0">
+            <img src="../../public/static/assets/img/partners/logo-aacd.png" alt="..." height="90" />
+          </div>
+          <div class="col pt-5 pt-lg-0">
             <img
-              src="../../public/static/assets/img/partners/logo-aacd.png"
+              src="../../public/static/assets/img/partners/logo-greenpeace.png"
               alt="..."
+              height="90"
             />
           </div>
-          <div class="col-4 col-lg-2 pt-5 pt-lg-0">
+          <div class="col pt-5 pt-lg-0">
             <img
-              src="../../public/static/assets/img/partners/logo-aacd.png"
+              src="../../public/static/assets/img/partners/logo-instituto-da-crianca.png"
               alt="..."
+              height="90"
             />
           </div>
-          <div class="col-4 col-lg-2 pt-5 pt-lg-0">
+          <div class="col pt-5 pt-lg-0">
+            <img src="../../public/static/assets/img/partners/logo-sesi.png" alt="..." height="90" />
+          </div>
+          <div class="col pt-5 pt-lg-0">
             <img
-              src="../../public/static/assets/img/partners/logo-aacd.png"
+              src="../../public/static/assets/img/partners/logo-make-a-wish.png"
               alt="..."
+              height="90"
             />
           </div>
-          <div class="col-4 col-lg-2 pt-5 pt-lg-0">
+          <div class="col pt-5 pt-lg-0">
             <img
-              src="../../public/static/assets/img/partners/logo-aacd.png"
+              src="../../public/static/assets/img/partners/logo-instituto-ronald-mcdonalds.png"
               alt="..."
+              height="90"
             />
           </div>
-          <div class="col-4 col-lg-2 pt-5 pt-lg-0">
+          <div class="col pt-5 pt-lg-0">
             <img
-              src="../../public/static/assets/img/partners/logo-aacd.png"
+              src="../../public/static/assets/img/partners/logo-gaia-mais.png"
               alt="..."
+              height="90"
             />
           </div>
-          <div class="col-4 col-lg-2 pt-5 pt-lg-0">
+          <div class="col pt-5 pt-lg-0">
             <img
-              src="../../public/static/assets/img/partners/logo-aacd.png"
+              src="../../public/static/assets/img/partners/logo-fundacao-cafu.png"
               alt="..."
+              height="90"
             />
           </div>
         </div>
@@ -257,9 +284,9 @@
 </template>
 
 <script>
-import HeaderGlobal from './HeaderGlobal.vue';
-import NumberText from './widgets/NumberText.vue';
-import FooterGlobal from './FooterGlobal.vue';
+import HeaderGlobal from "./HeaderGlobal.vue";
+import NumberText from "./widgets/NumberText.vue";
+import FooterGlobal from "./FooterGlobal.vue";
 
 // import { Survey } from "../services/Survey.js";
 // const s = new Survey();
@@ -269,12 +296,12 @@ import FooterGlobal from './FooterGlobal.vue';
 
 //     import { mask } from "vue-the-mask";
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     HeaderGlobal,
     NumberText,
-    FooterGlobal,
-  },
+    FooterGlobal
+  }
   //   data: () => ({
   //     btnMes: "Quero responder",
   //     nome: "",

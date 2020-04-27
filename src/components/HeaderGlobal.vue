@@ -16,11 +16,9 @@
             />
           </a>
         </div>
-        <div class="d-none d-sm-block">
+        <div class="d-none d-lg-block">
           <div class="pull-right">
-            <button class="btn btn-primary rounded-0 ml-3">
-              Quero doar
-            </button>
+            <button class="btn btn-primary rounded-0 ml-3">Quero doar</button>
           </div>
           <div class="pull-right pt-4">
             <h5 class="text-yellow">
@@ -43,16 +41,16 @@
 </template>
 
 <script>
-import { Survey } from '../services/Survey.js';
+import { Survey } from "../services/Survey.js";
 const s = new Survey();
 
 export default {
-  name: 'HeaderGlobal',
+  name: "HeaderGlobal",
   props: {
-    secondaryHeader: { type: Boolean },
+    secondaryHeader: { type: Boolean }
   },
   data: () => ({
-    qtSomos: 0,
+    qtSomos: 0
   }),
   created() {
     this.getNSurvey();
@@ -61,20 +59,20 @@ export default {
     showSomos: function() {
       if (this.qtSomos == 0) return false;
       else return true;
-    },
+    }
   },
   methods: {
     getNSurvey() {
       s.GetData().then(
-        (ret) => {
+        ret => {
           if (ret) {
             this.qtSomos = ret;
-            this.$store.commit('SET_QtUsers', this.qtSomos);
+            this.$store.commit("SET_QtUsers", this.qtSomos);
           }
         },
-        (err) => alert(err)
+        err => alert(err)
       );
-    },
-  },
+    }
+  }
 };
 </script>
