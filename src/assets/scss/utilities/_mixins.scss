@@ -1,6 +1,6 @@
-@mixin vertical-align($width) {
+@mixin vertical-align() {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: $width;
+  // width: $width;
 }

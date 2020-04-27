@@ -3,7 +3,7 @@ html {
 }
 body {
   // font-family: "HPThin", "Open Sans", sans-serif !important;
-  color: $primary;
+  color: $white;
   #app {
     background-color: $secondary;
     min-height: 100vh;
@@ -104,6 +104,6 @@ body {
 }
 @media (min-width: 1024px) {
   .vertical-align {
-    @include vertical-align(75%);
+    @include vertical-align();
   }
 }
