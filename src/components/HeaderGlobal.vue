@@ -18,7 +18,7 @@
         </div>
         <div class="d-none d-lg-block">
           <div class="pull-right">
-            <button class="btn btn-primary rounded-0 ml-3">Quero doar</button>
+            <button class="btn btn-primary rounded-0 ml-3" v-on:click="beginDonation">Quero doar</button>
           </div>
           <div class="pull-right pt-4">
             <h5 class="text-yellow">
@@ -62,6 +62,9 @@ export default {
     }
   },
   methods: {
+    beginDonation() {
+      this.$router.push("beginDonation");
+    },
     getNSurvey() {
       s.GetData().then(
         ret => {
