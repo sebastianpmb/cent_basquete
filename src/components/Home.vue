@@ -4,12 +4,12 @@
     <main>
       <div class="container px-4 px-lg-0 pt-5 min-vh-100">
         <div class="row vertical-align pt-5">
-          <div class="col-lg-10 col-12 pt-5 px-5 px-lg-3">
+          <div class="col-lg-9 col-12 pt-5 px-5 px-lg-3">
             <h1 class="text-white">
               <strong>Centavos que valem cesta de 3!</strong>
             </h1>
           </div>
-          <div class="col-12 col-lg-9 pt-4 px-5 px-lg-3">
+          <div class="col-12 col-lg-8 pt-4 px-5 px-lg-3">
             <h4 class="text-yellow">
               <strong>
                 Sabia que você pode ajudar os jogadores de basquete neste
@@ -17,6 +17,7 @@
               </strong>
             </h4>
           </div>
+
           <div class="container d-lg-none">
             <div class="row">
               <div class="col-12 text-center mt-5 px-5 px-lg-3">
