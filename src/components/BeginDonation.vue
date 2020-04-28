@@ -4,24 +4,26 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 text-center bg-secondary min-vh-100">
-          <div class="row vertical-align">
-            <div class="col-lg-12">
-              <a class="navbar-brand" href="index.html">
-                <img
-                  src="static/assets/img/logo.png"
-                  class="px-3 px-lg-0 py-2 mb-4"
-                  alt="Cadastra Portuguesa Santista"
-                  height="126"
-                />
-              </a>
-            </div>
-            <div class="col-12 col-lg-8 offset-lg-2">
-              <h4 class="text-white">
-                <strong>Você está a apenas 2 passos de ajudar centenas de profissionais do mundo do basquete neste momento tão difícil!</strong>
-              </h4>
-              <h4 class="text-yellow mt-4">
-                <strong>Os seus centavos podem fazer a diferença!</strong>
-              </h4>
+          <div class="row">
+            <div class="vertical-align">
+              <div class="col-lg-12">
+                <a class="navbar-brand" href="index.html">
+                  <img
+                    src="static/assets/img/logo.png"
+                    class="px-3 px-lg-0 py-2 mb-4"
+                    alt="Cadastra Portuguesa Santista"
+                    height="126"
+                  />
+                </a>
+              </div>
+              <div class="col-12 col-lg-8 offset-lg-2">
+                <h4 class="text-white">
+                  <strong>Você está a apenas 2 passos de ajudar centenas de profissionais do mundo do basquete neste momento tão difícil!</strong>
+                </h4>
+                <h4 class="text-yellow mt-4">
+                  <strong>Os seus centavos podem fazer a diferença!</strong>
+                </h4>
+              </div>
             </div>
           </div>
         </div>
@@ -30,12 +32,12 @@
           <div class="col-12 vertical-align">
             <div class="row">
               <div class="col-lg-12">
-                <h5 class="text-center text-white mt-3 mb-2">
+                <h5 class="text-center text-white mt-5 mt-lg-0 mb-2">
                   <strong>Preencha os campos abaixo:</strong>
                 </h5>
               </div>
 
-              <div class="col-lg-10 offset-lg-1 mt-5">
+              <div class="col-lg-10 offset-lg-1 mt-lg-5">
                 <vs-alert class="mb-3 mt-2" color="#ffffff" :active="inputInvalid">
                   <b>Por favor:</b>
                   <ul class="common-list">

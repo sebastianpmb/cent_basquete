@@ -4,27 +4,29 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 text-center bg-secondary min-vh-100">
-          <div class="row vertical-align">
-            <div class="col-lg-12">
-              <a class="navbar-brand" href="index.html">
-                <img
-                  src="static/assets/img/logo.png"
-                  class="px-3 px-lg-0 py-2 mb-4"
-                  alt="Cadastra Portuguesa Santista"
-                  height="126"
-                />
-              </a>
-            </div>
-            <div class="col-12 col-lg-8 offset-lg-2">
-              <h4 class="text-white">
-                <strong>Obrigado!</strong>
-              </h4>
-              <h4 class="text-yellow mt-4">
-                <strong>Cadastre seu cartão de crédito Mastercard e comece a doar seus centavos para quem precisa, com toda a segurança da nossa plataforma.</strong>
-              </h4>
-              <h5
-                class="mt-4"
-              >E não se esqueça, quando quiser cancelar suas doações , basta acessar sua conta no o site xxxx.com.br</h5>
+          <div class="row">
+            <div class="vertical-align">
+              <div class="col-lg-12">
+                <a class="navbar-brand" href="index.html">
+                  <img
+                    src="static/assets/img/logo.png"
+                    class="px-3 px-lg-0 py-2 mb-4"
+                    alt="Cadastra Portuguesa Santista"
+                    height="126"
+                  />
+                </a>
+              </div>
+              <div class="col-12 col-lg-8 offset-lg-2">
+                <h4 class="text-white">
+                  <strong>Obrigado!</strong>
+                </h4>
+                <h4 class="text-yellow mt-4">
+                  <strong>Cadastre seu cartão de crédito Mastercard e comece a doar seus centavos para quem precisa, com toda a segurança da nossa plataforma.</strong>
+                </h4>
+                <h5
+                  class="mt-4"
+                >E não se esqueça, quando quiser cancelar suas doações , basta acessar sua conta no o site xxxx.com.br</h5>
+              </div>
             </div>
           </div>
         </div>
@@ -33,7 +35,7 @@
           <div class="col-12 vertical-align">
             <div class="row">
               <div class="col-lg-12">
-                <h5 class="text-center text-white mt-3 mb-2">
+                <h5 class="text-center text-white mt-5 mb-lg-2">
                   <strong>Preencha os dados do seu cartão:</strong>
                 </h5>
               </div>
@@ -45,7 +47,7 @@
                     <li v-for="error in errors" :key="error.questid">{{ error.msg }}</li>
                   </ul>
                 </vs-alert>
-                <div class="form-group my-5 my-md-0">
+                <div class="form-group my-lg-5 my-md-0">
                   <label class="form-group has-float-label">
                     <input
                       type="text"
