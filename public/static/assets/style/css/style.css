@@ -532,8 +532,6 @@ input:-ms-input-placeholder {
   }
   .form-group .form-group input.form-control:focus {
     border: none !important;
-    -webkit-box-shadow: 0 0 0 0.2rem white !important;
-            box-shadow: 0 0 0 0.2rem white !important;
     text-decoration: none;
     color: #fff;
   }
@@ -543,10 +541,10 @@ input:-ms-input-placeholder {
     font-weight: bold;
   }
   .form-group .form-group.has-float-label > span {
-    background: #002a6a !important;
+    background: #264378 !important;
   }
   .form-group .form-group.has-float-label > span::after {
-    background: #002a6a !important;
+    background: #264378 !important;
   }
   .form-group .form-group.has-float-label .form-control:placeholder-shown:not(:focus) + * {
     top: 1.25em !important;
@@ -816,12 +814,10 @@ body .title-bar {
   }
 }
 
-@media (min-width: 1024px) {
-  .vertical-align {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 /*# sourceMappingURL=style.css.map */
