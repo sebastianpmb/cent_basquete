@@ -157,37 +157,37 @@
     <section role="how-it-works" class="bg-white py-5">
       <div class="container-fluid">
         <div class="row text-center py-5">
-          <div class="col-12 col-lg bg-blue-2 p-5">
-            <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
+          <div class="col-12 col-lg bg-blue-2 px-3 py-5">
+            <h6 class="text-white py-4 py-lg-0">
               <strong>Os arredondamentos nunca passam de R$0,99 por compra</strong>
             </h6>
           </div>
-          <div class="col-12 col-lg bg-blue-3 p-5">
-            <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
+          <div class="col-12 col-lg bg-blue-3 px-3 py-5">
+            <h6 class="text-white py-4 py-lg-0">
               <strong>
                 Você pode descadastrar seu cartão quando quiser, de forma
                 simples e rápida pelo site.
               </strong>
             </h6>
           </div>
-          <div class="col-12 col-lg bg-blue-4 p-5">
-            <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
+          <div class="col-12 col-lg bg-blue-4 px-3 py-5">
+            <h6 class="text-white py-4 py-lg-0">
               <strong>
                 A Plataforma InCENTive atende aos principais protocolos globais
                 de segurança digital.
               </strong>
             </h6>
           </div>
-          <div class="col-12 col-lg bg-blue-5 p-5">
-            <h6 class="text-white my-auto py-4 py-lg-0">
+          <div class="col-12 col-lg bg-blue-5 px-3 py-5">
+            <h6 class="text-white py-4 py-lg-0">
               <strong>
                 No momento, aceitamos apenas Cartões de Crédito Mastercard.
                 Outros cartões e bandeiras serão aceitos em breve.
               </strong>
             </h6>
           </div>
-          <div class="col-12 col-lg bg-blue-6 p-5">
-            <h6 class="text-white my-auto vertical-align py-4 py-lg-0">
+          <div class="col-12 col-lg bg-blue-6 px-3 py-5">
+            <h6 class="text-white py-4 py-lg-0">
               <strong>O valor de doação mínima mensal é de R$5,00.</strong>
             </h6>
           </div>
