@@ -137,7 +137,7 @@
 }
 
 #app .text-green-2 {
-  color: #60923e !important;
+  color: #218f43 !important;
 }
 
 #app .bg-yellow {
@@ -173,7 +173,7 @@
 }
 
 #app .bg-green-2 {
-  background-color: #60923e !important;
+  background-color: #218f43 !important;
 }
 
 #app .white {
@@ -205,7 +205,7 @@
 }
 
 .bg-green-2 {
-  background-color: #60923e !important;
+  background-color: #218f43 !important;
 }
 
 .border-bottom-light {
@@ -650,6 +650,10 @@ input:-ms-input-placeholder {
   padding: 0;
 }
 
+#app .navbar .navbar-brand img {
+  width: 70px;
+}
+
 #app .somos {
   width: 65%;
   display: -webkit-box;
@@ -816,6 +820,9 @@ html body .title-bar {
   }
   body #app .container-content {
     min-height: calc(100vh - 200px - 4.1rem);
+  }
+  body #app main {
+    text-align: center;
   }
   .balls {
     top: 10rem !important;
