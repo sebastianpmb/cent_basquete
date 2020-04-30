@@ -23,9 +23,9 @@
                 <h5 class="text-yellow mt-4">
                   <strong>Cadastre seu cartão de crédito Mastercard e comece a doar seus centavos para quem precisa, com toda a segurança da nossa plataforma.</strong>
                 </h5>
-                <h5
-                  class="mt-4"
-                >E não se esqueça, quando quiser cancelar suas doações, basta acessar sua conta no o site xxxx.com.br</h5>
+                <h5 class="mt-4">
+                  <small>E não se esqueça, quando quiser cancelar suas doações, basta acessar sua conta no o site xxxx.com.br</small>
+                </h5>
               </div>
             </div>
           </div>

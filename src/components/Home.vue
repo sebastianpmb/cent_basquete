@@ -5,8 +5,8 @@
       <div class="container min-vh-100 px-4 px-lg-0 pt-5">
         <div class="row pt-5">
           <div class="header-vertical-align">
-            <div class="col-lg-9 col-12 pt-5 px-5 px-lg-3">
-              <h1 class="text-white pr-5">
+            <div class="col-lg-9 col-12 pt-5 px-5 px-lg-3 mt-5 mt-lg-0">
+              <h1 class="text-white pr-lg-5 mt-4 mt-lg-0">
                 <strong>Centavos que valem cesta de 3!</strong>
               </h1>
             </div>
@@ -21,19 +21,16 @@
 
             <div class="container d-lg-none">
               <div class="row">
-                <div class="col-12 text-center mt-5 px-5 px-lg-3">
-                  <h6>
-                    <strong>Já arrecadamos</strong>
-                  </h6>
+                <div class="col-12 text-center mt-5 mb-3">
+                  <a href="#/beginDonation" class="btn btn-primary" target="_blank">Quero doar</a>
                 </div>
-                <div class="col-12 mb-3 text-center">
+                <div class="col-12 text-center px-5 px-lg-3">
+                  <h6>Já arrecadamos</h6>
+                </div>
+                <div class="col-12 mb-3 text-center mb-lg-0">
                   <h5 class="text-yellow">
                     <strong>R$ 34.876,32</strong>
                   </h5>
-                </div>
-
-                <div class="col-12 text-center">
-                  <a href="#/beginDonation" class="btn btn-primary" target="_blank">Quero doar</a>
                 </div>
               </div>
             </div>
@@ -79,12 +76,12 @@
         <div class="row px-5 pt-lg-5 mt-5">
           <div class="col-lg-3">
             <div class="row">
-              <div class="col-3">
+              <div class="col-2 col-lg-3">
                 <h1 class="text-yellow text-right">
                   <strong>1</strong>
                 </h1>
               </div>
-              <div class="col-9 pt-3 pt-lg-5">
+              <div class="col-10 col-lg-9 pt-3 pt-lg-5">
                 <h6 class="text-black">
                   Cadastrando seu Cartão de Crédito Mastercard*, você se torna
                   um doador de centavos para os projetos sociais
@@ -95,12 +92,12 @@
           </div>
           <div class="col-lg-3 mt-4 mt-lg-0">
             <div class="row">
-              <div class="col-3">
+              <div class="col-2 col-lg-3">
                 <h1 class="text-yellow text-right">
                   <strong>2</strong>
                 </h1>
               </div>
-              <div class="col-9 pt-3 pt-lg-5">
+              <div class="col-10 col-lg-9 pt-3 pt-lg-5">
                 <h6 class="text-black">
                   Em uma compra de
                   <strong>R$8,60</strong>, por exemplo, o sistema arredonda para
@@ -111,12 +108,12 @@
           </div>
           <div class="col-lg-3 mt-4 mt-lg-0">
             <div class="row">
-              <div class="col-3">
+              <div class="col-2 col-lg-3">
                 <h1 class="text-yellow text-right">
                   <strong>3</strong>
                 </h1>
               </div>
-              <div class="col-9 pt-3 pt-lg-5">
+              <div class="col-10 col-lg-9 pt-3 pt-lg-5">
                 <h6 class="text-black">
                   A diferença de
                   <strong>R$0,40</strong> é o valor da sua doação , que será
@@ -128,12 +125,12 @@
           </div>
           <div class="col-lg-3 mt-4 mt-lg-0">
             <div class="row">
-              <div class="col-3">
+              <div class="col-2 col-lg-3">
                 <h1 class="text-yellow text-right">
                   <strong>4</strong>
                 </h1>
               </div>
-              <div class="col-9 pt-3 pt-lg-5">
+              <div class="col-10 col-lg-9 pt-3 pt-lg-5">
                 <h6 class="text-black">
                   No final do mês será feito um único lançamento na fatura do
                   seu cartão de crédito Mastercard com o total de centavos
@@ -143,8 +140,8 @@
             </div>
           </div>
         </div>
-        <div class="row pt-lg-5 mt-5">
-          <div class="col-12 text-center">
+        <div class="row pt-lg-5 my-4">
+          <div class="col-12 text-center my-5 my-lg-0">
             <a href="#/beginDonation" class="btn btn-primary ml-3" target="_blank">Quero doar</a>
           </div>
         </div>

@@ -116,17 +116,21 @@
                     <input
                       type="password"
                       id="password"
-                      placeholder="(xx)9xxxx-xxxx"
+                      placeholder=" "
                       v-model="password"
                       class="form-control fcmobile"
                       ref="passwordInput"
                     />
                     <span for="password" class="white">Senha</span>
                   </label>
-                  <p>Mínimo de 8 caracteres, uma maiúscula, uma minúscula e um número.</p>
+                  <p>
+                    <small>Mínimo de 8 caracteres, uma maiúscula, uma minúscula e um número.</small>
+                  </p>
                 </div>
-                <p class="text-center">
-                  <small>Ao criar sua conta você concorda com os Termos de Uso e Aceite e a receber comunicações por e-mail ou SMS da Plataforma.</small>
+                <p class="text-center mt-5">
+                  <small>
+                    <strong>Ao criar sua conta você concorda com os Termos de Uso e Aceite e a receber comunicações por e-mail ou SMS da Plataforma.</strong>
+                  </small>
                 </p>
                 <!-- <button type="submit" class="btn btn-primary mt-4 mb-4 transparent">Quero fazer parte</button> -->
               </div>

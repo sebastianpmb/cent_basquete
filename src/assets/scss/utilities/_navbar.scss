@@ -1,6 +1,11 @@
 #app {
   .navbar {
     padding: 0;
+    .navbar-brand {
+      img {
+        width: 70px;
+      }
+    }
     // background-color: rgba(0, 42, 106, 0.9);
   }
   .somos {
