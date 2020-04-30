@@ -17,7 +17,8 @@
 }
 
 #app p {
-  letter-spacing: -0.48px;
+  letter-spacing: 0.05rem;
+  line-height: 1.2rem;
   font-size: 1rem;
 }
 
@@ -40,12 +41,12 @@
 }
 
 #app h4 {
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   line-height: 2.8rem;
 }
 
 #app h5 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.9rem;
   letter-spacing: 0.1rem;
 }
@@ -55,7 +56,7 @@
 }
 
 #app h6 {
-  font-size: 1.17rem;
+  font-size: 1.1rem;
   line-height: 1.62rem;
   letter-spacing: 0;
 }
@@ -210,53 +211,51 @@
 }
 
 /* Buttons */
-.btn {
+#app .btn {
   -webkit-transition: all 0.21s ease-out !important;
   transition: all 0.21s ease-out !important;
+  padding: 1rem;
+  min-width: 235px;
+  padding: 11px 0;
 }
 
-.btn > a {
+#app .btn > a {
   color: white !important;
   text-decoration: none !important;
 }
 
-.btn:not(a) {
-  padding: 1rem;
-  min-width: 235px;
-}
-
-.btn.btn-primary {
+#app .btn.btn-primary {
   background-color: #70ad47 !important;
   border-color: #70ad47 !important;
   color: #fff !important;
 }
 
-.btn.btn-secondary {
+#app .btn.btn-secondary {
   background-color: #002a6a !important;
   border-color: #002a6a !important;
   color: #fff !important;
 }
 
-.btn.btn-secondary:hover {
+#app .btn.btn-secondary:hover {
   background-color: #002a6a !important;
   -webkit-filter: brightness(120%);
           filter: brightness(120%);
   color: #fff !important;
 }
 
-.btn.btn-success {
+#app .btn.btn-success {
   background-color: #002a6a !important;
   border-color: #002a6a !important;
   color: #fff !important;
 }
 
-.btn.btn-yellow {
+#app .btn.btn-yellow {
   background-color: #ffc000 !important;
   border-color: #ffc000 !important;
   color: #002a6a !important;
 }
 
-.btn:hover {
+#app .btn:hover {
   background-color: #002a6a !important;
   color: #70ad47 !important;
   -webkit-box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.5);
@@ -724,23 +723,22 @@ input:-ms-input-placeholder {
 }
 
 html {
-  background-color: #002a6a !important;
+  font-size: 15px;
 }
 
-body {
+html body {
   color: #fff !important;
 }
 
-body #app {
-  background-color: #002a6a !important;
+html body #app {
   min-height: 100vh;
 }
 
-body #app .container-content {
+html body #app .container-content {
   min-height: calc(100vh - 191px);
 }
 
-body #app .home {
+html body #app .home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -751,25 +749,25 @@ body #app .home {
   min-height: 100vh;
 }
 
-body #app .survey.secondary .logo-bg {
+html body #app .survey.secondary .logo-bg {
   background-image: url(./../../../assets/img/logo-bg-secondary.png);
 }
 
-body #app .progress-bar {
+html body #app .progress-bar {
   background-color: #002a6a !important;
 }
 
-body #app .vs-alert {
+html body #app .vs-alert {
   background-color: #70ad47 !important;
   color: #002a6a !important;
   font-weight: 800;
 }
 
-body .iconDeselect {
+html body .iconDeselect {
   cursor: pointer;
 }
 
-body .observation {
+html body .observation {
   /*width: 395px;*/
   /*  height: 52px;*/
   /*font-family: OpenSans;*/
@@ -782,11 +780,11 @@ body .observation {
   /*color: #ffffff;*/
 }
 
-body .q-buttonlist-selected i {
+html body .q-buttonlist-selected i {
   color: #002a6a !important;
 }
 
-body .title-bar {
+html body .title-bar {
   width: 155px;
   margin: 0 auto;
   height: 4px;

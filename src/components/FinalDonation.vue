@@ -20,12 +20,12 @@
                 <h4 class="text-white">
                   <strong>Obrigado!</strong>
                 </h4>
-                <h4 class="text-yellow mt-4">
+                <h5 class="text-yellow mt-4">
                   <strong>Cadastre seu cartão de crédito Mastercard e comece a doar seus centavos para quem precisa, com toda a segurança da nossa plataforma.</strong>
-                </h4>
+                </h5>
                 <h5
                   class="mt-4"
-                >E não se esqueça, quando quiser cancelar suas doações , basta acessar sua conta no o site xxxx.com.br</h5>
+                >E não se esqueça, quando quiser cancelar suas doações, basta acessar sua conta no o site xxxx.com.br</h5>
               </div>
             </div>
           </div>
@@ -33,21 +33,21 @@
 
         <div class="col-lg-6 bg-blue-3">
           <div class="col-12 vertical-align">
-            <div class="row">
-              <div class="col-lg-12">
-                <h5 class="text-center text-white mt-5 mb-lg-2">
+            <div class="row pb-5">
+              <div class="col-lg-12 mt-5 pt-lg-5">
+                <h5 class="text-center text-white">
                   <strong>Preencha os dados do seu cartão:</strong>
                 </h5>
               </div>
 
-              <div class="col-lg-10 offset-lg-1 mt-5">
+              <div class="col-lg-8 offset-lg-2 mt-lg-5">
                 <vs-alert class="mb-3 mt-2" color="#ffffff" :active="inputInvalid">
                   <b>Por favor:</b>
                   <ul class="common-list">
                     <li v-for="error in errors" :key="error.questid">{{ error.msg }}</li>
                   </ul>
                 </vs-alert>
-                <div class="form-group my-lg-5 my-md-0">
+                <div class="form-group my-5 my-md-0">
                   <label class="form-group has-float-label">
                     <input
                       type="text"
@@ -104,7 +104,7 @@
                 </div>
                 <!-- <button type="submit" class="btn btn-primary mt-4 mb-4 transparent">Quero fazer parte</button> -->
               </div>
-              <div class="col-lg-4 offset-lg-4">
+              <div class="col-lg-4 offset-lg-4 my-4">
                 <button
                   type="submit"
                   class="btn btn-primary btn-block mt-4 mb-2"
@@ -112,7 +112,7 @@
                   v-on:click="checkForm"
                 >{{ btnMes }}</button>
               </div>
-              <div class="col-lg-4 offset-lg-4 mt-4">
+              <div class="col-lg-4 offset-lg-4">
                 <button
                   type="submit"
                   class="btn text-white btn-block mt-4 mb-2"

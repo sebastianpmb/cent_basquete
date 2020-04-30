@@ -1,12 +1,12 @@
 <template>
   <div class="home">
     <HeaderGlobal :secondaryHeader="false" />
-    <main>
-      <div class="container px-4 px-lg-0 pt-5 min-vh-100">
+    <main class="bg-secondary">
+      <div class="container min-vh-100 px-4 px-lg-0 pt-5">
         <div class="row pt-5">
           <div class="vertical-align">
             <div class="col-lg-9 col-12 pt-5 px-5 px-lg-3">
-              <h1 class="text-white">
+              <h1 class="text-white pr-5">
                 <strong>Centavos que valem cesta de 3!</strong>
               </h1>
             </div>
@@ -22,11 +22,7 @@
             <div class="container d-lg-none">
               <div class="row">
                 <div class="col-12 text-center mt-5 px-5 px-lg-3">
-                  <h6
-                    v-bind:class="[
-                !this.secondaryHeader ? 'text-white' : 'text-black',
-              ]"
-                  >
+                  <h6>
                     <strong>Já arrecadamos</strong>
                   </h6>
                 </div>
@@ -37,7 +33,7 @@
                 </div>
 
                 <div class="col-12 text-center">
-                  <button class="btn btn-primary rounded-0" v-on:click="beginDonation">Quero doar</button>
+                  <a href="#/beginDonation" class="btn btn-primary ml-3" target="_blank">Quero doar</a>
                 </div>
               </div>
             </div>
@@ -45,7 +41,7 @@
         </div>
       </div>
     </main>
-    <section role="how-it-works" class="bg-white min-vh-100">
+    <section role="how-it-works">
       <div class="container-fluid text-white">
         <div class="row">
           <div class="col-lg-6 bg-primary px-lg-5 p-5 px-lg-3">
@@ -74,13 +70,13 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-8 offset-2 col-lg-4 offset-lg-4 bg-white pt-lg-5 mt-5">
-            <h4 class="text-black text-center mb-3">
+            <h4 class="text-black text-center">
               <strong>Como funciona</strong>
             </h4>
             <div class="title-bar" />
           </div>
         </div>
-        <div class="row px-5 pt-5 pb-3">
+        <div class="row px-5 pt-lg-5 mt-5">
           <div class="col-lg-3">
             <div class="row">
               <div class="col-3">
@@ -147,57 +143,50 @@
             </div>
           </div>
         </div>
-        <div class="row mt-4">
+        <div class="row pt-lg-5 mt-5">
           <div class="col-12 text-center">
-            <button class="btn btn-primary rounded-0" v-on:click="beginDonation">Quero doar</button>
+            <a href="#/beginDonation" class="btn btn-primary ml-3" target="_blank">Quero doar</a>
           </div>
         </div>
       </div>
     </section>
-    <section role="how-it-works" class="bg-white py-5">
+    <section role="how-it-works" class="bg-white pt-lg-5 mt-5">
       <div class="container-fluid">
-        <div class="row text-center py-5">
-          <div class="col-12 col-lg bg-blue-2 px-3 py-5">
+        <div class="row text-center">
+          <div class="col-12 col-lg bg-blue-2 px-3">
             <h6 class="text-white py-4 py-lg-0">
-              <strong>Os arredondamentos nunca passam de R$0,99 por compra</strong>
+              Os arredondamentos
+              <br />nunca passam de R$0,99 por compra
             </h6>
           </div>
           <div class="col-12 col-lg bg-blue-3 px-3 py-5">
             <h6 class="text-white py-4 py-lg-0">
-              <strong>
-                Você pode descadastrar seu cartão quando quiser, de forma
-                simples e rápida pelo site.
-              </strong>
+              Você pode descadastrar seu cartão quando quiser, de forma
+              simples e rápida pelo site.
             </h6>
           </div>
           <div class="col-12 col-lg bg-blue-4 px-3 py-5">
             <h6 class="text-white py-4 py-lg-0">
-              <strong>
-                A Plataforma InCENTive atende aos principais protocolos globais
-                de segurança digital.
-              </strong>
+              A Plataforma InCENTive atende aos principais protocolos globais
+              de segurança digital.
             </h6>
           </div>
           <div class="col-12 col-lg bg-blue-5 px-3 py-5">
             <h6 class="text-white py-4 py-lg-0">
-              <strong>
-                No momento, aceitamos apenas Cartões de Crédito Mastercard.
-                Outros cartões e bandeiras serão aceitos em breve.
-              </strong>
+              No momento, aceitamos apenas Cartões de Crédito Mastercard.
+              Outros cartões e bandeiras serão aceitos em breve.
             </h6>
           </div>
           <div class="col-12 col-lg bg-blue-6 px-3 py-5">
-            <h6 class="text-white py-4 py-lg-0">
-              <strong>O valor de doação mínima mensal é de R$5,00.</strong>
-            </h6>
+            <h6 class="text-white py-4 py-lg-0">O valor de doação mínima mensal é de R$5,00.</h6>
           </div>
         </div>
       </div>
     </section>
-    <section role="how-it-works" class="bg-white min-vh-100">
+    <section role="how-it-works" class="bg-white">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-8 offset-2 col-lg-8 offset-lg-2 pt-lg-5 mt-3">
+          <div class="col-8 offset-2 col-lg-8 offset-lg-2 pt-lg-5 mt-5">
             <h4 class="text-black text-center mb-3">
               <strong>Quem usa a plataforma InCENTive</strong>
             </h4>
@@ -254,30 +243,27 @@
             />
           </div>
         </div>
-        <div class="row px-5 py-5">
+        <div class="row px-5 py-5 mb-3">
           <div class="col-12 col-lg-6 offset-lg-3">
-            <h6 class="text-black text-center">
-              <i>
-                "O brasileiro é solidário e disposto a contribuir, mas a falta
-                de tempo e de canais que possibilitam doações são os principais
-                fatores que não potencializam esse engajamento. Essa nova
-                tecnologia resolve esses dois problemas, pois basta um simples
-                cadastro para realizar doações com pequenos valores, sem mudar
-                nada na rotina.
-                <br />A nossa expectativa é que essa nossa parceria cause uma
-                grande impacto positivo em nosso trabalho, contribuindo de forma
-                significativa para os atendimentos que realizamos diariamente na
-                AACD."
-              </i>
-            </h6>
-            <h6 class="text-black text-center">
-              <i>
-                <strong>
-                  Edson Brito, Superintendente de Marketing
-                  <br />e Relações Internacionais da AACD
-                </strong>
-              </i>
-            </h6>
+            <p class="text-black text-center">
+              "O brasileiro é solidário e disposto a contribuir, mas a falta
+              de tempo e de canais que possibilitam doações são os principais
+              fatores que não potencializam esse engajamento.
+              <br />Essa nova
+              tecnologia resolve esses dois problemas, pois basta um simples
+              cadastro para realizar doações com pequenos valores, sem mudar
+              nada na rotina.
+              <br />A nossa expectativa é que essa nossa parceria cause uma
+              grande impacto positivo em nosso trabalho, contribuindo de forma
+              significativa para os atendimentos que realizamos diariamente na
+              AACD."
+            </p>
+            <p class="text-black text-center">
+              <strong>
+                Edson Brito, Superintendente de Marketing
+                <br />e Relações Internacionais da AACD
+              </strong>
+            </p>
           </div>
         </div>
       </div>
