@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-lg-6 text-center bg-secondary min-vh-100">
           <div class="row">
-            <div class="vertical-align">
+            <div class="header-vertical-align">
               <div class="col-lg-12">
                 <a class="navbar-brand" href="index.html">
                   <img
@@ -32,7 +32,7 @@
         </div>
 
         <div class="col-lg-6 bg-blue-3">
-          <div class="col-12 vertical-align">
+          <div class="col-12 header-vertical-align">
             <div class="row pb-5">
               <div class="col-lg-12 mt-5 pt-lg-5">
                 <h5 class="text-center text-white">

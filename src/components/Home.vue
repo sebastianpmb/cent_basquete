@@ -4,7 +4,7 @@
     <main class="bg-secondary">
       <div class="container min-vh-100 px-4 px-lg-0 pt-5">
         <div class="row pt-5">
-          <div class="vertical-align">
+          <div class="header-vertical-align">
             <div class="col-lg-9 col-12 pt-5 px-5 px-lg-3">
               <h1 class="text-white pr-5">
                 <strong>Centavos que valem cesta de 3!</strong>
@@ -26,14 +26,14 @@
                     <strong>Já arrecadamos</strong>
                   </h6>
                 </div>
-                <div class="col-12 text-center">
+                <div class="col-12 mb-3 text-center">
                   <h5 class="text-yellow">
                     <strong>R$ 34.876,32</strong>
                   </h5>
                 </div>
 
                 <div class="col-12 text-center">
-                  <a href="#/beginDonation" class="btn btn-primary ml-3" target="_blank">Quero doar</a>
+                  <a href="#/beginDonation" class="btn btn-primary" target="_blank">Quero doar</a>
                 </div>
               </div>
             </div>
@@ -150,35 +150,44 @@
         </div>
       </div>
     </section>
-    <section role="how-it-works" class="bg-white pt-lg-5 mt-5">
+    <section id="how-it-works" class="bg-white pt-lg-5 mt-5">
       <div class="container-fluid">
         <div class="row text-center">
-          <div class="col-12 col-lg bg-blue-2 px-3">
-            <h6 class="text-white py-4 py-lg-0">
-              Os arredondamentos
-              <br />nunca passam de R$0,99 por compra
-            </h6>
+          <div class="col-12 col-lg bg-blue-2 px-3 px-lg-5">
+            <div class="vertical-align">
+              <h6
+                class="text-white py-4 py-lg-0"
+              >Os arredondamentos nunca passam de R$0,99 por compra.</h6>
+            </div>
           </div>
-          <div class="col-12 col-lg bg-blue-3 px-3 py-5">
-            <h6 class="text-white py-4 py-lg-0">
-              Você pode descadastrar seu cartão quando quiser, de forma
-              simples e rápida pelo site.
-            </h6>
+          <div class="col-12 col-lg bg-blue-3 px-3 px-lg-4">
+            <div class="vertical-align">
+              <h6 class="text-white py-4 py-lg-0">
+                Você pode descadastrar seu cartão quando quiser, de forma
+                simples e rápida pelo site.
+              </h6>
+            </div>
           </div>
-          <div class="col-12 col-lg bg-blue-4 px-3 py-5">
-            <h6 class="text-white py-4 py-lg-0">
-              A Plataforma InCENTive atende aos principais protocolos globais
-              de segurança digital.
-            </h6>
+          <div class="col-12 col-lg bg-blue-4 px-3 px-lg-4">
+            <div class="vertical-align">
+              <h6 class="text-white py-4 py-lg-0">
+                A Plataforma InCENTive atende aos principais protocolos globais
+                de segurança digital.
+              </h6>
+            </div>
           </div>
-          <div class="col-12 col-lg bg-blue-5 px-3 py-5">
-            <h6 class="text-white py-4 py-lg-0">
-              No momento, aceitamos apenas Cartões de Crédito Mastercard.
-              Outros cartões e bandeiras serão aceitos em breve.
-            </h6>
+          <div class="col-12 col-lg bg-blue-5 px-3 px-lg-4">
+            <div class="vertical-align">
+              <h6 class="text-white py-4 py-lg-0">
+                No momento, aceitamos apenas Cartões de Crédito Mastercard.
+                Outros cartões e bandeiras serão aceitos em breve.
+              </h6>
+            </div>
           </div>
-          <div class="col-12 col-lg bg-blue-6 px-3 py-5">
-            <h6 class="text-white py-4 py-lg-0">O valor de doação mínima mensal é de R$5,00.</h6>
+          <div class="col-12 col-lg bg-blue-6 px-3 px-lg-4">
+            <div class="vertical-align">
+              <h6 class="text-white py-4 py-lg-0">O valor de doação mínima mensal é de R$5,00.</h6>
+            </div>
           </div>
         </div>
       </div>
