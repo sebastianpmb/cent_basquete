@@ -1,76 +1,75 @@
 html {
-  background-color: $secondary;
-}
-body {
-  // font-family: "HPThin", "Open Sans", sans-serif !important;
-  color: $white;
-  #app {
-    background-color: $secondary;
-    min-height: 100vh;
-    // letter-spacing: 0.1rem;
-    // .logo-bg {
-    //   background-image: url(./../../../assets/img/logo-bg.png);
-    //   background-repeat: no-repeat;
-    //   position: fixed;
-    //   height: 355px;
-    //   width: 100%;
-    //   top: 12rem;
-    // }
-
-    .container-content {
-      min-height: calc(100vh - 191px);
-    }
-    .home {
-      display: flex;
-      flex-direction: column;
+  font-size: 15px;
+  body {
+    // font-family: "HPThin", "Open Sans", sans-serif !important;
+    color: $white;
+    #app {
       min-height: 100vh;
-      // footer {
-      //   margin-top: auto;
+      // letter-spacing: 0.1rem;
+      // .logo-bg {
+      //   background-image: url(./../../../assets/img/logo-bg.png);
+      //   background-repeat: no-repeat;
+      //   position: fixed;
+      //   height: 355px;
+      //   width: 100%;
+      //   top: 12rem;
       // }
-    }
-    .survey {
-      &.secondary {
-        .logo-bg {
-          background-image: url(./../../../assets/img/logo-bg-secondary.png);
+
+      .container-content {
+        min-height: calc(100vh - 191px);
+      }
+      .home {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        // footer {
+        //   margin-top: auto;
+        // }
+      }
+      .survey {
+        &.secondary {
+          .logo-bg {
+            background-image: url(./../../../assets/img/logo-bg-secondary.png);
+          }
         }
       }
+      .progress-bar {
+        background-color: $secondary;
+      }
+      .vs-alert {
+        background-color: $primary;
+        color: $secondary;
+        font-weight: 800;
+      }
     }
-    .progress-bar {
-      background-color: $secondary;
+    .iconDeselect {
+      cursor: pointer;
     }
-    .vs-alert {
+
+    .observation {
+      /*width: 395px;*/
+      /*  height: 52px;*/
+      /*font-family: OpenSans;*/
+      font-size: 15px;
+      /*font-weight: bold;*/
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.18;
+      letter-spacing: normal;
+      /*color: #ffffff;*/
+    }
+    .q-buttonlist-selected {
+      i {
+        color: $secondary;
+      }
+    }
+
+    .title-bar {
+      width: 155px;
+      margin: 0 auto;
+      height: 4px;
       background-color: $primary;
-      color: $secondary;
-      font-weight: 800;
     }
-  }
-  .iconDeselect {
-    cursor: pointer;
-  }
-
-  .observation {
-    /*width: 395px;*/
-    /*  height: 52px;*/
-    /*font-family: OpenSans;*/
-    font-size: 15px;
-    /*font-weight: bold;*/
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
-    /*color: #ffffff;*/
-  }
-  .q-buttonlist-selected {
-    i {
-      color: $secondary;
-    }
-  }
-
-  .title-bar {
-    width: 155px;
-    margin: 0 auto;
-    height: 4px;
-    background-color: $primary;
   }
 }
 

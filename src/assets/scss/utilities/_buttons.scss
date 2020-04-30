@@ -1,50 +1,51 @@
 /* Buttons */
-.btn {
-  transition: all 0.21s ease-out !important;
-  > a {
-    color: white !important;
-    text-decoration: none !important;
-  }
-  &:not(a) {
+#app {
+  .btn {
+    transition: all 0.21s ease-out !important;
+    > a {
+      color: white !important;
+      text-decoration: none !important;
+    }
     padding: 1rem;
     min-width: 235px;
+    padding: 11px 0;
     // &.btn-block {
     //   padding: 0;
     // }
-  }
-  &.btn-primary {
-    background-color: $primary;
-    border-color: $primary;
-    color: $white;
-  }
-
-  &.btn-secondary {
-    background-color: $secondary;
-    border-color: $secondary;
-    color: $white;
-    &:hover {
-      background-color: $secondary;
-      filter: brightness(120%);
+    &.btn-primary {
+      background-color: $primary;
+      border-color: $primary;
       color: $white;
     }
-  }
-  &.btn-success {
-    background-color: $success;
-    border-color: $success;
-    color: $white;
-  }
-  &.btn-yellow {
-    background-color: $yellow;
-    border-color: $yellow;
-    color: $secondary;
-  }
-  &:hover {
-    background-color: $secondary;
-    // filter: brightness(80%);
-    color: $primary;
-    box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.5);
-    transform: scale(1.03);
-    // border-color: #fff;
+
+    &.btn-secondary {
+      background-color: $secondary;
+      border-color: $secondary;
+      color: $white;
+      &:hover {
+        background-color: $secondary;
+        filter: brightness(120%);
+        color: $white;
+      }
+    }
+    &.btn-success {
+      background-color: $success;
+      border-color: $success;
+      color: $white;
+    }
+    &.btn-yellow {
+      background-color: $yellow;
+      border-color: $yellow;
+      color: $secondary;
+    }
+    &:hover {
+      background-color: $secondary;
+      // filter: brightness(80%);
+      color: $primary;
+      box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.5);
+      transform: scale(1.03);
+      // border-color: #fff;
+    }
   }
 }
 

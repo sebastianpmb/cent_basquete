@@ -17,12 +17,12 @@
                 </a>
               </div>
               <div class="col-12 col-lg-8 offset-lg-2">
-                <h4 class="text-white">
+                <h5 class="text-white">
                   <strong>Você está a apenas 2 passos de ajudar centenas de profissionais do mundo do basquete neste momento tão difícil!</strong>
-                </h4>
-                <h4 class="text-yellow mt-4">
+                </h5>
+                <h5 class="text-yellow mt-4">
                   <strong>Os seus centavos podem fazer a diferença!</strong>
-                </h4>
+                </h5>
               </div>
             </div>
           </div>
@@ -30,14 +30,14 @@
 
         <div class="col-lg-6 bg-blue-3">
           <div class="col-12 vertical-align">
-            <div class="row">
-              <div class="col-lg-12">
-                <h5 class="text-center text-white mt-5 mt-lg-0 mb-2">
+            <div class="row pb-5">
+              <div class="col-lg-12 mt-5 pt-lg-5">
+                <h5 class="text-center text-white">
                   <strong>Preencha os campos abaixo:</strong>
                 </h5>
               </div>
 
-              <div class="col-lg-10 offset-lg-1 mt-lg-5">
+              <div class="col-lg-8 offset-lg-2 mt-lg-5">
                 <vs-alert class="mb-3 mt-2" color="#ffffff" :active="inputInvalid">
                   <b>Por favor:</b>
                   <ul class="common-list">
@@ -123,18 +123,14 @@
                     />
                     <span for="password" class="white">Senha</span>
                   </label>
-                  <p>
-                    <strong>Ao criar sua conta você concorda com os Termos de Uso e Aceite e a receber comunicações por e-mail ou SMS da Plataforma.</strong>
-                  </p>
+                  <p>Mínimo de 8 caracteres, uma maiúscula, uma minúscula e um número.</p>
                 </div>
-                <p>
-                  <small>
-                    <strong>Ao criar sua conta você concorda com os Termos de Uso e Aceite e a receber comunicações por e-mail ou SMS da Plataforma.</strong>
-                  </small>
+                <p class="text-center">
+                  <small>Ao criar sua conta você concorda com os Termos de Uso e Aceite e a receber comunicações por e-mail ou SMS da Plataforma.</small>
                 </p>
                 <!-- <button type="submit" class="btn btn-primary mt-4 mb-4 transparent">Quero fazer parte</button> -->
               </div>
-              <div class="col-lg-4 offset-lg-4">
+              <div class="col-lg-4 offset-lg-4 my-4">
                 <button
                   type="submit"
                   class="btn btn-primary btn-block mt-4 mb-2"
