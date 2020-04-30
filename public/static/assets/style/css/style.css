@@ -88,12 +88,26 @@
     font-size: 3.2rem !important;
     line-height: 3.8rem !important;
   }
+  #app h2 {
+    font-size: 2.8rem !important;
+    line-height: 3.8rem !important;
+  }
   #app h3 {
-    font-size: 1.4rem !important;
+    font-size: 2.2rem !important;
     line-height: 1.7rem !important;
   }
   #app h4 {
-    font-size: 1.15rem !important;
+    font-size: 1.8rem !important;
+    letter-spacing: -0.48px;
+    line-height: 2.2rem;
+  }
+  #app h5 {
+    font-size: 1.4rem !important;
+    letter-spacing: -0.48px;
+    line-height: 1.7rem;
+  }
+  #app h6 {
+    font-size: 1.2rem !important;
     letter-spacing: -0.48px;
     line-height: 1.7rem;
   }
@@ -812,10 +826,20 @@ html body .title-bar {
   }
 }
 
-.vertical-align {
+.header-vertical-align {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.vertical-align {
+  display: table !important;
+  height: 200px;
+}
+
+.vertical-align * {
+  display: table-cell;
+  vertical-align: middle;
 }
 /*# sourceMappingURL=style.css.map */

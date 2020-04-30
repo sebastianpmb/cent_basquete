@@ -1,6 +1,10 @@
-@mixin vertical-align() {
+@mixin header-vertical-align() {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   // width: $width;
+}
+@mixin vertical-align($height) {
+  display: table !important;
+  height: $height;
 }
