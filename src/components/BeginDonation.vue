@@ -6,7 +6,7 @@
         <div class="col-lg-6 text-center bg-secondary min-vh-100">
           <div class="row">
             <div class="header-vertical-align">
-              <div class="col-lg-12">
+              <div class="col-lg-12 px-5">
                 <a class="navbar-brand" href="index.html">
                   <img
                     src="static/assets/img/logo.png"
@@ -16,19 +16,19 @@
                   />
                 </a>
               </div>
-              <div class="col-12 col-lg-8 offset-lg-2">
-                <h5 class="text-white">
+              <div class="col-12 col-lg-8 offset-lg-2 mt-5 px-5 px-lg-4">
+                <h5 class="text-white px-3">
                   <strong>Você está a apenas 2 passos de ajudar centenas de profissionais do mundo do basquete neste momento tão difícil!</strong>
                 </h5>
-                <h5 class="text-yellow mt-4">
+                <h4 class="text-yellow mt-4 px-5">
                   <strong>Os seus centavos podem fazer a diferença!</strong>
-                </h5>
+                </h4>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-6 bg-blue-2">
+        <div class="col-lg-6 bg-blue-3">
           <div class="col-12 header-vertical-align">
             <div class="row pb-5">
               <div class="col-lg-12 mt-5 pt-lg-5">
