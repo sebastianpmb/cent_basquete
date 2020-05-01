@@ -763,7 +763,7 @@ html body #app .bg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 100%;
 }
