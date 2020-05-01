@@ -28,7 +28,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 bg-blue-3">
+        <div class="col-lg-6 bg-blue-2">
           <div class="col-12 header-vertical-align">
             <div class="row pb-5">
               <div class="col-lg-12 mt-5 pt-lg-5">
@@ -105,7 +105,7 @@
                       placeholder="+xx (xx) 9xxxx-xxxx"
                       v-model="phone"
                       class="form-control fcmobile"
-                      v-mask="['+## (##) ####-####', '(##) #####-####']"
+                      v-mask="['+## (##) ####-####', '+## (##) #####-####']"
                       ref="phoneInput"
                     />
                     <span for="phone" class="white">Celular</span>
@@ -355,7 +355,9 @@ export default {
     },
 
     TestaPhone: function(cel) {
-      var celRegex = /^(?:(?:\+|00)?(55)\s?)?(0?[1-9]{2})*\D*(9)\D?(\d{4})+\D?(\d{4})\b/;
+      // var celRegex = /^(?:(?:\+|00)?(55)\s?)?(0?[1-9]{2})*\D*(9)\D?(\d{4})+\D?(\d{4})\b/;
+      var celRegex = /(0?[1-9]{2})*\D*(9)\D?(\d{4})+\D?(\d{4})\b/;
+      console.log(celRegex);
       if (celRegex.test(cel)) {
         return true;
       } else {

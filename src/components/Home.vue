@@ -157,7 +157,7 @@
               >Os arredondamentos nunca passam de R$0,99 por compra.</h6>
             </div>
           </div>
-          <div class="col-12 col-lg bg-blue-3 px-3 px-lg-4">
+          <div class="col-12 col-lg bg-secondary px-3 px-lg-4">
             <div class="vertical-align">
               <h6 class="text-white py-4 py-lg-0">
                 Você pode descadastrar seu cartão quando quiser, de forma
@@ -165,7 +165,7 @@
               </h6>
             </div>
           </div>
-          <div class="col-12 col-lg bg-blue-4 px-3 px-lg-4">
+          <div class="col-12 col-lg bg-blue-3 px-3 px-lg-4">
             <div class="vertical-align">
               <h6 class="text-white py-4 py-lg-0">
                 A Plataforma InCENTive atende aos principais protocolos globais
@@ -173,7 +173,7 @@
               </h6>
             </div>
           </div>
-          <div class="col-12 col-lg bg-blue-5 px-3 px-lg-4">
+          <div class="col-12 col-lg bg-blue-4 px-3 px-lg-4">
             <div class="vertical-align">
               <h6 class="text-white py-4 py-lg-0">
                 No momento, aceitamos apenas Cartões de Crédito Mastercard.
@@ -181,7 +181,7 @@
               </h6>
             </div>
           </div>
-          <div class="col-12 col-lg bg-blue-6 px-3 px-lg-4">
+          <div class="col-12 col-lg bg-blue-5 px-3 px-lg-4">
             <div class="vertical-align">
               <h6 class="text-white py-4 py-lg-0">O valor de doação mínima mensal é de R$5,00.</h6>
             </div>
