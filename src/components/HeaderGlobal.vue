@@ -1,41 +1,39 @@
 <template>
-  <div class="mb-5">
-    <nav class="navbar navbar-expand-md fixed-top bg-secondary">
-      <div class="container px-lg-0 py-1">
-        <div class="col-3 offset-5 col-lg-2 offset-lg-0 pl-lg-0">
-          <a class="navbar-brand" href="index.html">
-            <img
-              :src="[
+  <nav class="navbar navbar-expand-md fixed-top bg-secondary">
+    <div class="container px-lg-0 py-1">
+      <div class="col-3 offset-5 col-lg-2 offset-lg-0 pl-lg-0">
+        <a class="navbar-brand" href="index.html">
+          <img
+            :src="[
                 !this.secondaryHeader
                   ? 'static/assets/img/logo.png'
                   : 'static/assets/img/logo-secondary.png',
               ]"
-              class="img-fluid pr-3 px-lg-0 py-2"
-              alt="Centavos CBB"
-            />
-          </a>
+            class="img-fluid pr-3 px-lg-0 py-2"
+            alt="Centavos CBB"
+          />
+        </a>
+      </div>
+      <div class="d-none d-lg-block">
+        <div class="pull-right">
+          <a href="#/beginDonation" class="btn btn-primary ml-3" target="_blank">Quero doar</a>
         </div>
-        <div class="d-none d-lg-block">
-          <div class="pull-right">
-            <a href="#/beginDonation" class="btn btn-primary ml-3" target="_blank">Quero doar</a>
-          </div>
-          <div class="pull-right pt-2 mr-2">
-            <h5 class="text-yellow">
-              <strong>R$ 34.876,32</strong>
-            </h5>
-          </div>
-          <div class="pull-right pt-2 mr-2">
-            <h6
-              class="pt-1"
-              v-bind:class="[
+        <div class="pull-right pt-2 mr-2">
+          <h5 class="text-yellow">
+            <strong>R$ 34.876,32</strong>
+          </h5>
+        </div>
+        <div class="pull-right pt-2 mr-2">
+          <h6
+            class="pt-1"
+            v-bind:class="[
                 !this.secondaryHeader ? 'text-white' : 'text-black',
               ]"
-            >Já arrecadamos</h6>
-          </div>
+          >Já arrecadamos</h6>
         </div>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </template>
 
 <script>

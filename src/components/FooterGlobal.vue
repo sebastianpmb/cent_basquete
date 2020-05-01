@@ -1,5 +1,5 @@
 <template>
-  <footer role="how-it-works" class="bg-secondary py-4">
+  <footer role="how-it-works" class="bg-blue-2 py-4">
     <div class="container-fluid pb-4">
       <div class="row">
         <div class="col-12 pt-3 text-center d-none d-md-inline">
