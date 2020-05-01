@@ -1,12 +1,12 @@
 <template>
   <div class="home">
     <HeaderGlobal :secondaryHeader="false" />
-    <main class="bg-secondary">
+    <main class="bg-secondary py-5">
       <div class="container min-vh-100 px-4 px-lg-0 pt-5">
         <div class="row pt-5">
-          <div class="header-vertical-align">
-            <div class="col-lg-9 col-12 pt-5 px-5 px-lg-3 mt-5 mt-lg-0">
-              <h1 class="text-white pr-lg-5 mt-4 mt-lg-0">
+          <div class="header-vertical-align my-5 pt-4">
+            <div class="col-lg-9 col-12 pt-5 px-4 px-lg-3 mt-5 mt-lg-0">
+              <h1 class="text-white pr-lg-5 mt-5 pt-3 pt-0 mt-lg-0">
                 <strong>Centavos que valem cesta de 3!</strong>
               </h1>
             </div>
@@ -20,14 +20,14 @@
             </div>
 
             <div class="container d-lg-none">
-              <div class="row">
+              <div class="row mb-5 mb-lg-0">
                 <div class="col-12 text-center mt-5 mb-3">
                   <a href="#/beginDonation" class="btn btn-primary" target="_blank">Quero doar</a>
                 </div>
-                <div class="col-12 text-center px-5 px-lg-3">
+                <div class="col-12 text-center mt-4 mt-lg-0 px-5 px-lg-3">
                   <h6>Já arrecadamos</h6>
                 </div>
-                <div class="col-12 mb-3 text-center mb-lg-0">
+                <div class="col-12 mb-5 text-center mb-lg-0">
                   <h5 class="text-yellow">
                     <strong>R$ 34.876,32</strong>
                   </h5>

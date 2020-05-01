@@ -104,7 +104,7 @@
   #app h5 {
     font-size: 1.4rem !important;
     letter-spacing: -0.48px;
-    line-height: 1.7rem;
+    line-height: 2.1rem;
   }
   #app h6 {
     font-size: 1.2rem !important;
@@ -426,6 +426,9 @@
 @media (max-width: 768px) {
   #app .question .question-navegation .btn {
     width: 83px;
+  }
+  #app .btn {
+    padding: 18px 0;
   }
 }
 

@@ -9,7 +9,7 @@
                   ? 'static/assets/img/logo.png'
                   : 'static/assets/img/logo-secondary.png',
               ]"
-            class="img-fluid pr-3 px-lg-0 py-2"
+            class="img-fluid px-lg-0 py-2"
             alt="Centavos CBB"
           />
         </a>
