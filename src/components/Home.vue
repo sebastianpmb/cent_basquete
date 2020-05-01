@@ -6,7 +6,7 @@
       <div class="container min-vh-100 px-4 px-lg-0 pt-5">
         <div class="row pt-5">
           <div class="header-vertical-align my-5 pt-4">
-            <div class="col-lg-9 col-12 pt-5 px-4 px-lg-3 mt-5 mt-lg-0">
+            <div class="col-lg-9 col-12 pt-5 px-4 px-lg-3 mt-5 mt-lg-0 pt-lg-0">
               <h1 class="text-white pr-lg-5 mt-5 pt-3 pt-0 mt-lg-0">
                 <strong>Centavos que valem cesta de 3!</strong>
               </h1>
