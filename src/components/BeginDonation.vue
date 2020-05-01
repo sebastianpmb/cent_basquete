@@ -7,7 +7,7 @@
           <div class="row">
             <div class="header-vertical-align">
               <div class="col-lg-12 px-5">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand mx-0 ml-lg-3" href="index.html">
                   <img
                     src="static/assets/img/logo.png"
                     class="px-3 px-lg-0 py-2 mb-4"
@@ -18,7 +18,10 @@
               </div>
               <div class="col-12 col-lg-8 offset-lg-2 mt-5 px-5 px-lg-4">
                 <h5 class="text-white px-3">
-                  <strong>Você está a apenas 2 passos de ajudar centenas de profissionais do mundo do basquete neste momento tão difícil!</strong>
+                  <strong>
+                    Você está a apenas 2 passos de ajudar milhares de crianças em todo o Brasil a se tornarem melhores cidadãos através do basquete!
+                    <br />Os seus centavos podem fazer a diferença!
+                  </strong>
                 </h5>
                 <h4 class="text-yellow mt-4 px-5">
                   <strong>Os seus centavos podem fazer a diferença!</strong>

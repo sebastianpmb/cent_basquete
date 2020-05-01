@@ -12,10 +12,7 @@
             </div>
             <div class="col-12 col-lg-8 pt-4 px-3">
               <h4 class="text-yellow">
-                <strong>
-                  Sabia que você pode ajudar os jogadores de basquete neste
-                  momento difícil doando seus centavos?
-                </strong>
+                <strong>Sabia que você pode ajudar na formação de milhares de crianças, através do basquete, doando seus centavos?</strong>
               </h4>
             </div>
 
@@ -24,7 +21,7 @@
                 <div class="col-12 text-center mt-5 mb-3">
                   <a href="#/beginDonation" class="btn btn-primary" target="_blank">Quero doar</a>
                 </div>
-                <div class="col-12 text-center mt-4 mt-lg-0 px-5 px-lg-3">
+                <div class="col-12 text-center mt-5 mt-lg-0 px-5 px-lg-3">
                   <h6>Já arrecadamos</h6>
                 </div>
                 <div class="col-12 mb-5 text-center mb-lg-0">
@@ -56,11 +53,9 @@
             <h4 class="px-lg-5 py-2">
               <strong>Sua doação direto para quem precisa!</strong>
             </h4>
-            <h6 class="px-lg-5">
-              Os valores arrecadados pela CBB com a doação dos seus centavos
-              serão integralmente direcionados para as famílias dos jogadores de
-              basquete que mais precisam neste momento.
-            </h6>
+            <h6
+              class="px-lg-5"
+            >Os valores arrecadados pela CBB com a doação dos seus centavos serão integralmente direcionados para o projeto CBB Cuida, voltado para o desenvolvimento de escolinhas de basquete em comunidades por todo o Brasil.</h6>
           </div>
         </div>
       </div>
