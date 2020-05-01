@@ -1,7 +1,8 @@
 <template>
   <div class="home">
+    <div class="bg"></div>
     <HeaderGlobal :secondaryHeader="false" />
-    <main class="bg-secondary py-lg-5">
+    <main class="py-lg-5">
       <div class="container min-vh-100 px-4 px-lg-0 pt-5">
         <div class="row pt-5">
           <div class="header-vertical-align my-5 pt-4">

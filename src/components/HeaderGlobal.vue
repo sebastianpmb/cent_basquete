@@ -1,5 +1,11 @@
 <template>
-  <nav class="navbar navbar-expand-md fixed-top bg-secondary">
+  <nav
+    class="navbar navbar-expand-md fixed-top"
+    v-bind:class="[
+                !this.scrolled ? '' : 'bg-secondary bg-nav',
+              ]"
+    v-on="handleScroll"
+  >
     <div class="container px-lg-0 py-1">
       <div class="col-3 offset-5 col-lg-2 offset-lg-0 pl-lg-0">
         <a class="navbar-brand" href="index.html">
@@ -46,10 +52,15 @@ export default {
     secondaryHeader: { type: Boolean }
   },
   data: () => ({
-    qtSomos: 0
+    qtSomos: 0,
+    scrolled: false
   }),
   created() {
     this.getNSurvey();
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
   },
   computed: {
     showSomos: function() {
@@ -58,6 +69,16 @@ export default {
     }
   },
   methods: {
+    handleScroll() {
+      // let obj = document.querySelector("nav");
+      let top = window.pageYOffset;
+      // let height = document.documentElement.window;
+      // if ()
+      this.scrolled = top > 118;
+      console.log(this.scrolled);
+
+      // this.scrolled = window.scrollY > 100;
+    },
     beginDonation() {
       this.$router.push("beginDonation");
     },

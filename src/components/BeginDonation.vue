@@ -357,7 +357,6 @@ export default {
     TestaPhone: function(cel) {
       // var celRegex = /^(?:(?:\+|00)?(55)\s?)?(0?[1-9]{2})*\D*(9)\D?(\d{4})+\D?(\d{4})\b/;
       var celRegex = /(0?[1-9]{2})*\D*(9)\D?(\d{4})+\D?(\d{4})\b/;
-      console.log(celRegex);
       if (celRegex.test(cel)) {
         return true;
       } else {
