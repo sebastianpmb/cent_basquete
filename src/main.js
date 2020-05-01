@@ -1,7 +1,7 @@
 import Vue from 'vue';
 
-import Vuesax from 'vuesax'
-import 'vuesax/dist/vuesax.css' //Vuesax styles
+import Vuesax from 'vuesax';
+import 'vuesax/dist/vuesax.css'; //Vuesax styles
 //import 'material-icons/iconfont/material-icons.css';
 import 'material-icons/iconfont/material-icons.css';
 
@@ -20,7 +20,7 @@ Vue.config.productionTip = true;
 
 //Vue.use(SocialSharing);
 
-Vue.use(Vuesax)
+Vue.use(Vuesax);
 /*
 Vue.use(VueGtag, {
     config: {        
@@ -33,10 +33,8 @@ Vue.use(VueGtag, {
 */
 
 new Vue({
-    data:
-    {        
-    },
-    store,
-    router,
-    render: h => h(App)
+  data: {},
+  store,
+  router,
+  render: (h) => h(App),
 }).$mount('#app');

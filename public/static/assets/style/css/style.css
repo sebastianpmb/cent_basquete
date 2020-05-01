@@ -652,6 +652,8 @@ input:-ms-input-placeholder {
 
 #app .navbar {
   padding: 0;
+  -webkit-transition: all 0.26s linear;
+  transition: all 0.26s linear;
 }
 
 #app .navbar .navbar-brand img {
@@ -754,6 +756,16 @@ html body {
 
 html body #app {
   min-height: 100vh;
+}
+
+html body #app .bg {
+  background-image: url(./../../../assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 html body #app .container-content {
