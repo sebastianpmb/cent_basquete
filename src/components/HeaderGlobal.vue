@@ -7,7 +7,7 @@
     v-on="handleScroll"
   >
     <div class="container px-lg-0 py-1">
-      <div class="col-3 offset-5 col-lg-2 offset-lg-0 pl-lg-0">
+      <div class="col-3 offset-5 col-lg-2 offset-lg-0 pl-0 pl-md-4 pl-lg-0">
         <a class="navbar-brand" href="index.html">
           <img
             :src="[
