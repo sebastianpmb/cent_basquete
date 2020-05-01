@@ -10,7 +10,7 @@
                 <strong>Centavos que valem cesta de 3!</strong>
               </h1>
             </div>
-            <div class="col-12 col-lg-8 pt-4 px-5 px-lg-3">
+            <div class="col-12 col-lg-8 pt-4 px-3">
               <h4 class="text-yellow">
                 <strong>
                   Sabia que você pode ajudar os jogadores de basquete neste
