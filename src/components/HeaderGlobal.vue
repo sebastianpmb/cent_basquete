@@ -75,8 +75,6 @@ export default {
       // let height = document.documentElement.window;
       // if ()
       this.scrolled = top > 118;
-      console.log(this.scrolled);
-
       // this.scrolled = window.scrollY > 100;
     },
     beginDonation() {
