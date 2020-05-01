@@ -5,7 +5,7 @@
     <main>
       <div class="container min-vh-100 px-4 px-lg-0 pt-5">
         <div class="row pt-5">
-          <div class="header-vertical-align my-5 pt-4">
+          <div class="header-vertical-align my-3 pt-4">
             <div class="col-lg-9 col-12 pt-5 px-4 px-lg-3 mt-5 mt-lg-0 pt-lg-0">
               <h1 class="text-white pr-lg-5 mt-5 pt-3 pt-0 mt-lg-0">
                 <strong>Centavos que valem cesta de 3!</strong>
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="container-fluid">
-        <div class="row">
+        <div class="row bg-white pb-5">
           <div class="col-8 offset-2 col-lg-4 offset-lg-4 bg-white pt-lg-5 mt-5">
             <h4 class="text-black text-center">
               <strong>Como funciona</strong>
@@ -67,7 +67,7 @@
             <div class="title-bar" />
           </div>
         </div>
-        <div class="row px-5 pt-lg-5 mt-5">
+        <div class="row bg-white px-5 pt-lg-5">
           <div class="col-lg-3">
             <div class="row">
               <div class="col-2 col-lg-3">
@@ -134,15 +134,15 @@
             </div>
           </div>
         </div>
-        <div class="row pt-lg-5 my-4">
-          <div class="col-12 text-center my-5 my-lg-0">
+        <div class="row bg-white pt-lg-5">
+          <div class="col-12 text-center my-5 my-lg-0 pt-4">
             <a href="#/beginDonation" class="btn btn-primary ml-3" target="_blank">Quero doar</a>
           </div>
         </div>
       </div>
     </section>
-    <section id="how-it-works" class="bg-white pt-lg-5 mt-5">
-      <div class="container-fluid">
+    <section id="how-it-works" class="bg-white pt-lg-5">
+      <div class="container-fluid pt-5">
         <div class="row text-center">
           <div class="col-12 col-lg bg-blue-2 px-3 px-lg-5">
             <div class="vertical-align">
