@@ -18,10 +18,7 @@
               </div>
               <div class="col-12 col-lg-8 offset-lg-2 mt-5 px-5 px-lg-4">
                 <h5 class="text-white px-3">
-                  <strong>
-                    Você está a apenas 2 passos de ajudar milhares de crianças em todo o Brasil a se tornarem melhores cidadãos através do basquete!
-                    <br />Os seus centavos podem fazer a diferença!
-                  </strong>
+                  <strong>Você está a apenas 2 passos de ajudar milhares de crianças em todo o Brasil a se tornarem melhores cidadãos através do basquete!</strong>
                 </h5>
                 <h4 class="text-yellow mt-4 px-5">
                   <strong>Os seus centavos podem fazer a diferença!</strong>
