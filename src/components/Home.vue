@@ -2,7 +2,7 @@
   <div class="home">
     <div class="bg"></div>
     <HeaderGlobal :secondaryHeader="false" />
-    <main class="pt-lg-5">
+    <main>
       <div class="container min-vh-100 px-4 px-lg-0 pt-5">
         <div class="row pt-5">
           <div class="header-vertical-align my-5 pt-4">
@@ -45,9 +45,7 @@
             </h4>
             <h6 class="px-lg-5">
               Ao cadastrar o seu Cartão de Crédito Mastercard* em nossa
-              plataforma, todas as suas compras serão arredondadas
-              automaticamente e a diferença dos centavos será doada diretamente
-              para a Associação dos Atletas xxxxxxxxx
+              plataforma, todas as suas compras Será doada diretamente para o CBB Cuida , o projeto social da CBB.
             </h6>
           </div>
           <div class="col-lg-6 bg-green-2 px-lg-5 p-5 px-lg-3">
