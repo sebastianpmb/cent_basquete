@@ -827,25 +827,31 @@ html body .title-bar {
 }
 
 @media (max-width: 480px) {
-  .img {
+  html .img {
     background-position: center 3rem !important;
     background-size: cover !important;
     height: 100vw !important;
   }
-  .container .home {
+  html .container .home {
     padding: 0 5rem;
   }
-  body #app .container-content {
+  html body #app .container-content {
     min-height: calc(100vh - 200px - 4.1rem);
   }
-  body #app main {
+  html body #app main {
     text-align: center;
   }
-  .balls {
+  html body #app .bg {
+    background-image: url(./../../../assets/img/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+  }
+  html .balls {
     top: 10rem !important;
     left: -14rem !important;
   }
-  footer .border-top-light {
+  html footer .border-top-light {
     border-top: 0;
   }
 }
@@ -865,5 +871,14 @@ html body .title-bar {
 .vertical-align * {
   display: table-cell;
   vertical-align: middle;
+}
+
+@media (min-width: 1024px) {
+  html body #app .bg {
+    background-image: url(./../../../assets/img/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+  }
 }
 /*# sourceMappingURL=style.css.map */
