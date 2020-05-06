@@ -873,7 +873,7 @@ html body .title-bar {
   vertical-align: middle;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   html body #app .bg {
     background-image: url(./../../../assets/img/bg-mobile.jpg);
     background-repeat: no-repeat;
